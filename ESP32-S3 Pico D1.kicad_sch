@@ -202,7 +202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB_Power_Interace.kicad_sch"
+		(property "Sheetfile" "USB_Power_Interface.kicad_sch"
 			(at 50.8 64.0846 0)
 			(effects
 				(font
