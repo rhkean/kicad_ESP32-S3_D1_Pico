@@ -268,31 +268,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PersonalSchematicSymbolLibrary:PESD24VF1BBL-Q"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "My Power DCDC:TPSM8290x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "ESD"
-				(at 0 2.54 0)
+			(property "Reference" "U"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "PESD24VF1BL-Q"
-				(at 0 -2.54 0)
+			(property "Value" "TPSM8290x"
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -301,11 +296,12 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD24VF1BBL-Q.pdf"
-				(at 0 -7.62 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm82903.pdf"
+				(at 10.16 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -314,8 +310,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ESD bidirectional diode, 5.0Vrwm, DFN0603-2, SOD962-2"
-				(at 0 -10.16 0)
+			(property "Description" "3-17V, 3A input, stepdown, DC/DC converter, Texas uSIP-11"
+				(at 10.16 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -324,8 +320,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Nexperia"
-				(at 0 -5.08 0)
+			(property "Manufacturer" "TI"
+				(at 10.16 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -334,8 +330,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "PESD24VF1BBL-Q"
-				(at 10.16 -5.08 0)
+			(property "Manufacturer Part Number" "TPSM82903SISR"
+				(at 12.7 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -344,8 +340,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C22465859"
-				(at 0 -12.7 0)
+			(property "LCSC" "C6290583"
+				(at 10.16 -33.02 0)
 				(show_name)
 				(effects
 					(font
@@ -355,8 +351,8 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD24VF1BBL-QYL/21413722"
-				(at 0 -15.24 0)
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/texas-instruments/TPSM82903SISR/17748443"
+				(at 10.16 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -365,8 +361,8 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Nexperia/PESD24VF1BBL-QYL?qs=HoCaDK9Nz5d%2Fx7ymoTBtdA%3D%3D"
-				(at 0 -17.78 0)
+			(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Texas-Instruments/TPSM82903SISR?qs=IPgv5n7u5QZzFdkAEGNjcA%3D%3D"
+				(at 10.16 -38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -375,7 +371,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS ESD 5V DFN1006 SOD882 (0402)"
+			(property "ki_keywords" "3V-17V, 3A, Buck Converter, uSIP-11, integrated inductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -384,61 +380,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "PESD24VF1BBL-Q_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD24VF1BBL-Q_1_1"
+			(symbol "TPSM8290x_0_0"
 				(pin passive line
-					(at -3.81 0 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
-					(name "A1"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -454,9 +400,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -2.54 -5.08 0)
 					(length 2.54)
-					(name "A2"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -471,10 +417,187 @@
 						)
 					)
 				)
+				(pin input line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "FB/VSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPSM8290x_1_0"
+				(pin input line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "SCONF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "SS/TR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPSM8290x_1_1"
+				(rectangle
+					(start 0 0)
+					(end 15.24 -22.86)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PersonalSchematicSymbolLibrary:TPS2121"
+		(symbol "My Power Management:TPS2121"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -831,26 +954,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PersonalSchematicSymbolLibrary:TPSM82903"
+		(symbol "PersonalSchematicSymbolLibrary:D_Schottky_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "TPSM82903"
-				(at 5.08 1.27 0)
+			(property "Value" "D_Schottky_Filled"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -859,82 +987,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm82903.pdf"
-				(at 10.16 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-17V, 3A input, stepdown, DC/DC converter, Texas uSIP-11"
-				(at 10.16 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TI"
-				(at 10.16 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "TPSM82903SISR"
-				(at 12.7 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C6290583"
-				(at 10.16 -33.02 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/texas-instruments/TPSM82903SISR/17748443"
-				(at 10.16 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Texas-Instruments/TPSM82903SISR?qs=IPgv5n7u5QZzFdkAEGNjcA%3D%3D"
-				(at 10.16 -38.1 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "3V-17V, 3A, Buck Converter, uSIP-11, integrated inductor"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -943,11 +999,76 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPSM82903_0_0"
+			(property "Description" "Schottky diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_* DFN*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Filled_1_1"
 				(pin passive line
-					(at -2.54 -2.54 0)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "VIN"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -963,9 +1084,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -5.08 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "VIN"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -980,181 +1101,210 @@
 						)
 					)
 				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "FB/VSET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -25.4 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 -2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -5.08 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -10.16 180)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PersonalSchematicSymbolLibrary:PESD24VF1BBL-Q"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ESD"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "TPSM82903_1_0"
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "SCONF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -12.7 180)
-					(length 2.54)
-					(name "SS/TR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 17.78 -15.24 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(property "Value" "PESD24VF1BL-Q"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "TPSM82903_1_1"
-				(rectangle
-					(start 0 0)
-					(end 15.24 -22.86)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD24VF1BBL-Q.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD bidirectional diode, 5.0Vrwm, DFN0603-2, SOD962-2"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "PESD24VF1BBL-Q"
+				(at 10.16 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C22465859"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD24VF1BBL-QYL/21413722"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Nexperia/PESD24VF1BBL-QYL?qs=HoCaDK9Nz5d%2Fx7ymoTBtdA%3D%3D"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD 5V DFN1006 SOD882 (0402)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PESD24VF1BBL-Q_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.2032)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PESD24VF1BBL-Q_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2431,7 +2581,7 @@
 	)
 	(text "*"
 		(exclude_from_sim no)
-		(at 142.24 134.62 0)
+		(at 138.43 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2464,12 +2614,6 @@
 		(uuid "06d169cf-bf7a-40eb-b3a2-2a720485348a")
 	)
 	(junction
-		(at 78.74 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d6be2ac-c773-4dc8-89e4-b94af2a48376")
-	)
-	(junction
 		(at 60.96 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2482,16 +2626,10 @@
 		(uuid "12f0b4fb-3fc2-4b85-ba23-0cab002e8bb8")
 	)
 	(junction
-		(at 185.42 128.27)
+		(at 180.34 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e931b8e-efe9-4ed5-b1e5-cd75317c7250")
-	)
-	(junction
-		(at 180.34 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22595be7-5043-492c-a648-4da1e2fe0714")
+		(uuid "1ca1b12c-12d0-4331-87a5-1779d59e2740")
 	)
 	(junction
 		(at 106.68 119.38)
@@ -2504,6 +2642,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3170d995-eb55-4a78-bab9-2db4aaf219ea")
+	)
+	(junction
+		(at 55.88 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31e4884c-b1a8-4123-9566-437804c84bec")
 	)
 	(junction
 		(at 124.46 129.54)
@@ -2522,12 +2666,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "341dfc94-90b1-435b-8dbd-2106b5c467f9")
-	)
-	(junction
-		(at 48.26 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "350d72ff-818b-44a4-b759-aecc467654ea")
 	)
 	(junction
 		(at 119.38 74.93)
@@ -2554,12 +2692,6 @@
 		(uuid "4df82d99-41e7-4a9b-afb9-bfb55fdbf316")
 	)
 	(junction
-		(at 55.88 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50cfd4bd-a12d-4a7c-850c-d15860393094")
-	)
-	(junction
 		(at 170.18 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2570,6 +2702,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e032f2b-0a10-4e7a-b0d4-1e570b0dfd45")
+	)
+	(junction
+		(at 55.88 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f03eee-9eea-48ef-a916-fb12117f0bed")
+	)
+	(junction
+		(at 71.12 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6619efc8-af68-4b5b-be61-0773175e08d8")
 	)
 	(junction
 		(at 111.76 129.54)
@@ -2590,10 +2734,10 @@
 		(uuid "67355ea4-e4aa-4cfe-a51e-d7d91b01ef53")
 	)
 	(junction
-		(at 55.88 152.4)
+		(at 185.42 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6909a6ef-cec0-4eea-8254-17af23f4e7af")
+		(uuid "68182999-dbda-47b1-a05c-cfce4c990646")
 	)
 	(junction
 		(at 38.1 142.24)
@@ -2620,6 +2764,12 @@
 		(uuid "777ca010-abca-4880-8e3f-6bf5c2ae5762")
 	)
 	(junction
+		(at 55.88 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84436c87-945b-4058-87b5-9e67258e52d5")
+	)
+	(junction
 		(at 129.54 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2644,6 +2794,24 @@
 		(uuid "92d5eb98-4cf8-4ca9-bfbc-347be35ec665")
 	)
 	(junction
+		(at 78.74 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944e22b5-3426-4cb3-912f-a2e5cd7288af")
+	)
+	(junction
+		(at 55.88 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95dca0e0-910f-4523-97ec-c05a59d76da5")
+	)
+	(junction
+		(at 33.02 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97a9a1a9-34e8-4674-b428-ddf48f201f22")
+	)
+	(junction
 		(at 104.14 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2662,10 +2830,10 @@
 		(uuid "afd80911-b496-4da5-8ff4-df4f39761ddf")
 	)
 	(junction
-		(at 96.52 104.14)
+		(at 48.26 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b54c0a37-bb16-458a-ba3d-43c85ca8c52e")
+		(uuid "b30faf59-11f8-496c-a5e8-a28d9cb3d36e")
 	)
 	(junction
 		(at 33.02 142.24)
@@ -2686,6 +2854,18 @@
 		(uuid "ced7b7bf-6c34-45ed-afe1-40601280ed0d")
 	)
 	(junction
+		(at 96.52 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da063916-a783-4ef0-aef2-c8cac75f323c")
+	)
+	(junction
+		(at 185.42 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df69d3c1-65e9-4d08-8858-e27e5b27c711")
+	)
+	(junction
 		(at 129.54 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2696,18 +2876,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1419833-9b3c-4202-ada8-67bb552adb16")
-	)
-	(junction
-		(at 55.88 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e241fa96-cfb6-45b1-8d4c-2db4e180dc72")
-	)
-	(junction
-		(at 48.26 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e32867bd-60bf-487f-a7e5-3af46d41c054")
 	)
 	(junction
 		(at 139.7 119.38)
@@ -2769,6 +2937,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 160.02) (xy 78.74 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f9622b-b22e-4efb-85ee-29cb274c971a")
+	)
+	(wire
+		(pts
 			(xy 139.7 140.97) (xy 139.7 144.78)
 		)
 		(stroke
@@ -2786,6 +2964,16 @@
 			(type default)
 		)
 		(uuid "037f3183-4705-44d3-968e-2f7954ee0cd2")
+	)
+	(wire
+		(pts
+			(xy 55.88 160.02) (xy 55.88 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0380a232-02f1-4cea-a5f6-61a1523675c3")
 	)
 	(wire
 		(pts
@@ -2829,36 +3017,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 128.27) (xy 45.72 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2dfccc-6a06-4120-992a-d1c2f0f26baa")
-	)
-	(wire
-		(pts
-			(xy 48.26 128.27) (xy 48.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d434c12-a4b3-4c80-b963-7ba6ffb39e47")
-	)
-	(wire
-		(pts
-			(xy 78.74 144.78) (xy 78.74 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e72ccad-2671-4e8a-a230-3ff6a445e56e")
-	)
-	(wire
-		(pts
 			(xy 60.96 109.22) (xy 60.96 111.76)
 		)
 		(stroke
@@ -2869,23 +3027,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 128.27) (xy 185.42 144.78)
+			(xy 55.88 139.7) (xy 55.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f36cc76-d2be-4b85-b7e0-7a92fd112d89")
+	)
+	(wire
+		(pts
+			(xy 185.42 128.27) (xy 185.42 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "108a09ed-fac3-4043-ac5a-58c5d69d75c6")
-	)
-	(wire
-		(pts
-			(xy 45.72 128.27) (xy 45.72 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138ae398-ca55-4295-bb78-1728f906119a")
 	)
 	(wire
 		(pts
@@ -2896,6 +3054,16 @@
 			(type default)
 		)
 		(uuid "13f931c7-b7b4-4ae0-9b4d-298393bc7558")
+	)
+	(wire
+		(pts
+			(xy 33.02 104.14) (xy 33.02 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14db7a7d-a526-427c-83de-ec2aab0cc674")
 	)
 	(wire
 		(pts
@@ -2919,7 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 104.14) (xy 96.52 119.38)
+			(xy 96.52 96.52) (xy 96.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3129,6 +3297,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 104.14) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5ef314-edba-4bc1-a918-8e95de45303e")
+	)
+	(wire
+		(pts
 			(xy 43.18 152.4) (xy 38.1 152.4)
 		)
 		(stroke
@@ -3136,16 +3314,6 @@
 			(type default)
 		)
 		(uuid "2d65b371-686c-4bef-956a-e3d7667aad72")
-	)
-	(wire
-		(pts
-			(xy 45.72 120.65) (xy 48.26 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302722ee-4168-461b-bbf0-8ce32b827122")
 	)
 	(wire
 		(pts
@@ -3159,7 +3327,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 140.97) (xy 55.88 142.24)
+			(xy 55.88 160.02) (xy 71.12 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31551e09-5685-4f58-9df4-d5a8b7a11418")
+	)
+	(wire
+		(pts
+			(xy 55.88 138.43) (xy 55.88 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3199,6 +3377,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d52edc1-0ae0-4b1d-8875-e2c36b3b8c93")
+	)
+	(wire
+		(pts
 			(xy 88.9 134.62) (xy 91.44 134.62)
 		)
 		(stroke
@@ -3209,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 152.4) (xy 78.74 153.67)
+			(xy 78.74 144.78) (xy 78.74 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3226,16 +3414,6 @@
 			(type default)
 		)
 		(uuid "45f8a917-aee0-4d76-aec7-8e5001f2919b")
-	)
-	(wire
-		(pts
-			(xy 35.56 53.34) (xy 35.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ff1079-7289-47ea-a668-8b0937513960")
 	)
 	(wire
 		(pts
@@ -3259,26 +3437,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 96.52) (xy 96.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49140b8a-2b70-40fe-81b3-fd9c1e1435d9")
-	)
-	(wire
-		(pts
-			(xy 55.88 129.54) (xy 55.88 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "497ad454-f2c6-483c-9b8f-51c7589e8097")
-	)
-	(wire
-		(pts
 			(xy 78.74 139.7) (xy 78.74 144.78)
 		)
 		(stroke
@@ -3299,16 +3457,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 129.54) (xy 55.88 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b31d1cc-5bb3-4461-bc68-53d47c7a6f53")
-	)
-	(wire
-		(pts
 			(xy 165.1 121.92) (xy 170.18 121.92)
 		)
 		(stroke
@@ -3319,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 96.52) (xy 33.02 129.54)
+			(xy 33.02 96.52) (xy 33.02 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3386,6 +3534,16 @@
 			(type default)
 		)
 		(uuid "57327e3e-4a77-48e8-925d-597395d866ec")
+	)
+	(wire
+		(pts
+			(xy 48.26 128.27) (xy 48.26 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58388e21-643b-4774-9cb2-eb27d73f234e")
 	)
 	(wire
 		(pts
@@ -3459,23 +3617,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 134.62) (xy 66.04 142.24)
+			(xy 62.23 132.08) (xy 62.23 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64514605-a38c-4a85-966d-c318d20c91b5")
-	)
-	(wire
-		(pts
-			(xy 55.88 142.24) (xy 55.88 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65faca1b-f9a6-4822-bcf5-fb22e90af325")
 	)
 	(wire
 		(pts
@@ -3519,17 +3667,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 128.27) (xy 185.42 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a14c8d2-ff0d-4734-9c3f-1aba2ce283b2")
-	)
-	(wire
-		(pts
-			(xy 185.42 96.52) (xy 185.42 119.38)
+			(xy 185.42 96.52) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3599,23 +3737,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 142.24) (xy 66.04 142.24)
+			(xy 55.88 139.7) (xy 62.23 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72a797b1-c441-44d3-9e86-950280577431")
-	)
-	(wire
-		(pts
-			(xy 91.44 134.62) (xy 91.44 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743ccafb-48bb-499e-ac44-6087c6d284d2")
 	)
 	(wire
 		(pts
@@ -3649,6 +3777,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 104.14) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dfabd8-7e02-4b98-a9bf-f9251743b0fa")
+	)
+	(wire
+		(pts
 			(xy 88.9 119.38) (xy 91.44 119.38)
 		)
 		(stroke
@@ -3656,6 +3794,16 @@
 			(type default)
 		)
 		(uuid "875ceacd-1e3f-4512-a3b2-98265a7f2a3d")
+	)
+	(wire
+		(pts
+			(xy 48.26 119.38) (xy 48.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8975bafc-2d13-4dc3-9bca-d6633c600212")
 	)
 	(wire
 		(pts
@@ -3679,33 +3827,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 119.38) (xy 43.18 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a164476-8bc7-4a60-bdea-c302ca55634d")
-	)
-	(wire
-		(pts
-			(xy 45.72 50.8) (xy 45.72 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1a396a-6cdf-496e-969b-622d68757550")
-	)
-	(wire
-		(pts
-			(xy 78.74 161.29) (xy 78.74 162.56)
+			(xy 78.74 168.91) (xy 78.74 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a87036c-71c9-4714-af4f-a6b29a297c02")
+	)
+	(wire
+		(pts
+			(xy 62.23 132.08) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4ad1fb-43e7-412d-b1a3-a7cebec203b2")
 	)
 	(wire
 		(pts
@@ -3779,6 +3917,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 149.86) (xy 55.88 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996c5e64-29ac-42b8-84b9-d971c56e79d8")
+	)
+	(wire
+		(pts
 			(xy 38.1 142.24) (xy 38.1 143.51)
 		)
 		(stroke
@@ -3789,7 +3937,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 151.13) (xy 55.88 152.4)
+			(xy 55.88 129.54) (xy 55.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6042fe-f818-4de9-8229-582df81f485c")
+	)
+	(wire
+		(pts
+			(xy 55.88 148.59) (xy 55.88 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3799,13 +3957,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 104.14) (xy 99.06 104.14)
+			(xy 71.12 160.02) (xy 78.74 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1a1a8c7-ea8f-4cf8-9ffe-f1f8747933e8")
+		(uuid "a2245523-48b0-4581-abc8-dd7be2cfacc3")
 	)
 	(wire
 		(pts
@@ -3829,6 +3987,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 104.14) (xy 33.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e0e863-9ab4-47d5-b01c-39bd4f5e7736")
+	)
+	(wire
+		(pts
 			(xy 139.7 121.92) (xy 139.7 127)
 		)
 		(stroke
@@ -3849,6 +4017,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 134.62) (xy 66.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97094f3-5960-4c65-9e5e-b8d7e228916d")
+	)
+	(wire
+		(pts
 			(xy 134.62 119.38) (xy 139.7 119.38)
 		)
 		(stroke
@@ -3856,16 +4034,6 @@
 			(type default)
 		)
 		(uuid "ac3eaeaa-98eb-44c0-a7a6-358c7078df93")
-	)
-	(wire
-		(pts
-			(xy 55.88 50.8) (xy 55.88 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca21d0a-01d8-4199-838a-59e629292e65")
 	)
 	(wire
 		(pts
@@ -3879,7 +4047,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 152.4) (xy 78.74 152.4)
+			(xy 55.88 149.86) (xy 66.04 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3919,16 +4087,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 128.27) (xy 180.34 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6eb66a1-60a9-4ab4-851a-bdae7c64895f")
-	)
-	(wire
-		(pts
 			(xy 48.26 96.52) (xy 48.26 99.06)
 		)
 		(stroke
@@ -3936,16 +4094,6 @@
 			(type default)
 		)
 		(uuid "b811adfb-d93d-4305-b0ae-350c412f3727")
-	)
-	(wire
-		(pts
-			(xy 48.26 132.08) (xy 48.26 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83a6f51-0042-4909-a77f-60faab4be2b7")
 	)
 	(wire
 		(pts
@@ -3989,7 +4137,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 129.54) (xy 68.58 129.54)
+			(xy 99.06 104.14) (xy 96.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3eed94-ed88-4e4a-97ea-f8451e1e2114")
+	)
+	(wire
+		(pts
+			(xy 33.02 129.54) (xy 55.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4069,6 +4227,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 129.54) (xy 185.42 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c459c7d0-4c04-48d6-afd2-8cc57afdf8db")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7472916-8e21-42f4-b73c-4e625aeeb692")
+	)
+	(wire
+		(pts
 			(xy 134.62 129.54) (xy 129.54 129.54)
 		)
 		(stroke
@@ -4086,16 +4264,6 @@
 			(type default)
 		)
 		(uuid "c8b35e8c-17e9-4376-ae6d-b69629639c28")
-	)
-	(wire
-		(pts
-			(xy 66.04 134.62) (xy 68.58 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c924451e-a858-42d8-b92e-4fc035186f3f")
 	)
 	(wire
 		(pts
@@ -4159,6 +4327,46 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 152.4) (xy 93.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37060e9-1951-43d6-bc10-95ef059ad2f7")
+	)
+	(wire
+		(pts
+			(xy 66.04 134.62) (xy 68.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d385b7d5-7bb0-45ac-824f-e359c202a04b")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43e581a-bb03-49c2-9fbd-4cb6585eaf8a")
+	)
+	(wire
+		(pts
+			(xy 40.64 48.26) (xy 40.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6be01f5-5a13-42ba-8cc5-a5fcac164ddf")
+	)
+	(wire
+		(pts
 			(xy 104.14 43.18) (xy 104.14 45.72)
 		)
 		(stroke
@@ -4199,26 +4407,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 119.38) (xy 43.18 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0342bef-09c6-4b7f-9bdb-1d985c0971c6")
-	)
-	(wire
-		(pts
-			(xy 48.26 152.4) (xy 55.88 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3fd6e8d-5325-4308-9a4c-91cc77e016a7")
-	)
-	(wire
-		(pts
 			(xy 60.96 99.06) (xy 66.04 99.06)
 		)
 		(stroke
@@ -4239,6 +4427,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 104.14) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e487b4d8-fad2-4edd-a63e-22af75fb8cf0")
+	)
+	(wire
+		(pts
 			(xy 129.54 74.93) (xy 129.54 81.28)
 		)
 		(stroke
@@ -4256,6 +4454,16 @@
 			(type default)
 		)
 		(uuid "e713ff0d-3a53-488e-b4eb-eea2d349ac4f")
+	)
+	(wire
+		(pts
+			(xy 91.44 134.62) (xy 91.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74eb42b-94ab-4696-a04a-321cb51bda1d")
 	)
 	(wire
 		(pts
@@ -4319,6 +4527,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 160.02) (xy 55.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe08141-6b76-42a8-9851-14174fc8da64")
+	)
+	(wire
+		(pts
+			(xy 175.26 129.54) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05bf01c-12b7-4f8c-8f35-90c86d9437cb")
+	)
+	(wire
+		(pts
 			(xy 48.26 99.06) (xy 48.26 100.33)
 		)
 		(stroke
@@ -4326,16 +4554,6 @@
 			(type default)
 		)
 		(uuid "f09f79b3-9228-436c-818a-1306d6f49f75")
-	)
-	(wire
-		(pts
-			(xy 48.26 132.08) (xy 68.58 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1203e71-88b5-4112-a6f9-01aff130d60a")
 	)
 	(wire
 		(pts
@@ -4356,6 +4574,16 @@
 			(type default)
 		)
 		(uuid "f20465c0-10cd-4fd1-96d4-c5333fba1871")
+	)
+	(wire
+		(pts
+			(xy 55.88 129.54) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2eb371a-f760-4a84-8dd0-efeb14d8d010")
 	)
 	(wire
 		(pts
@@ -4439,6 +4667,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 129.54) (xy 180.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0564b3-35f7-411b-934a-781f1d16cd84")
+	)
+	(wire
+		(pts
 			(xy 132.08 45.72) (xy 137.16 45.72)
 		)
 		(stroke
@@ -4468,7 +4706,7 @@
 		(uuid "213dd52d-3b0d-46b9-9d23-a98822287832")
 	)
 	(label "GND1"
-		(at 78.74 152.4 180)
+		(at 78.74 160.02 180)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -4506,16 +4744,6 @@
 			(justify right bottom)
 		)
 		(uuid "a8e5ae9d-daf1-458e-ac19-d3b681568cd8")
-	)
-	(label "OV1_x"
-		(at 45.72 127 90)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2e5be69-c57d-48ae-815e-1d41032ad6dc")
 	)
 	(label "SCONFd"
 		(at 144.78 129.54 180)
@@ -4557,113 +4785,194 @@
 		)
 		(uuid "f98c58ac-0940-4464-8c2d-b8092c2322a8")
 	)
-	(global_label "ST"
-		(shape input)
-		(at 91.44 137.16 270)
-		(fields_autoplaced yes)
+	(hierarchical_label "Pwr Src Ind"
+		(shape output)
+		(at 93.98 152.4 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5bddebe8-7148-4309-a2be-586da32c1619")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 142.3223 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "06446f44-216a-477f-9cc2-a97e7e351ba6")
 	)
-	(global_label "+5Vext"
-		(shape input)
-		(at 35.56 53.34 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4410a9c-644b-4c94-a3b5-249f65722f67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 63.0381 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D+"
+	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 137.16 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify left)
 		)
-		(uuid "a5f41e9d-e47f-474e-acc4-1f836170ae26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8765 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "29972ed7-2e95-4afe-93b1-131b47eb2d49")
 	)
-	(global_label "+5VF"
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 38.1 48.26 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "4ea4e204-c208-4930-b8d2-40e9b9f958c3")
+	)
+	(hierarchical_label "+5V_{EXT}"
 		(shape input)
-		(at 99.06 104.14 0)
-		(fields_autoplaced yes)
+		(at 35.56 104.14 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify left)
 		)
-		(uuid "c289bc1b-c2de-4528-acbf-899b1a7f8fdd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0043 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "5437bbf8-4d20-4d21-8b67-3c871f0037d1")
 	)
-	(global_label "USB_D-"
+	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 137.16 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify left)
 		)
-		(uuid "ce1f23d0-6429-43fb-989f-f262898fc1a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8765 45.72 0)
+		(uuid "7f046c5b-4bca-4148-b05a-e9092a1b5b6b")
+	)
+	(hierarchical_label "+5V_{FUSED}"
+		(shape output)
+		(at 99.06 104.14 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "b8df714d-7d46-4f1e-acbb-e47004b9c6b4")
+	)
+	(hierarchical_label "+3V3"
+		(shape output)
+		(at 187.96 104.14 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "d7d50a4a-4515-41d9-94b2-cacdc272febc")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03124400-ef3e-4190-9b7d-63a98cde8a74")
+		(property "Reference" "C14"
+			(at 180.34 123.19 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Capacitors:C_0603_Dense"
+			(at 181.3052 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A226MO7JZN"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF 16V X5R ±20% 0603 MLCC SMD"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A226MO7JZNC"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2762594"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MO7JZNC/7320581"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MO7JZNC?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQBzruVQvBjN%2FZ5r%2FMGD9SXg%3D%3D"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac266b13-c907-4ee7-be7c-de6595882260")
+		)
+		(pin "2"
+			(uuid "9515f888-797a-4d02-861b-5ff073556cd2")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C14")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4677,11 +4986,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "043fbd9e-8106-4201-b0eb-667f47c1e4d9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR015"
 			(at 119.38 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4690,7 +4999,7 @@
 			(at 119.38 86.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4723,12 +5032,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a294d235-3e7d-4146-8923-c8199a79e1e9")
+			(uuid "16ef1e6b-f3ad-4c61-a576-99ce14b96460")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR06")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4744,11 +5053,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04b97af7-c011-4948-bcad-561f992e6cb5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR025"
 			(at 154.94 151.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4757,7 +5066,7 @@
 			(at 154.94 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4790,12 +5099,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a67fb995-ef74-4cce-8a27-3e40aa127fd8")
+			(uuid "4389c4a0-0a9b-4773-9f61-69f60a7715d9")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR016")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4810,11 +5119,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07025cf3-b709-4395-8e47-7766ece59d25")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR020"
 			(at 185.42 100.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4823,7 +5132,7 @@
 			(at 185.42 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -4855,45 +5164,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "cea577d4-75ac-41ba-a69a-86138639e90d")
+			(uuid "45fa308e-0800-47af-b952-94d595c9993b")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR011")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 43.18 124.46 180)
+		(lib_id "Device:C")
+		(at 175.26 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0ce29144-72fd-4499-adcc-e794d5381d72")
-		(property "Reference" "R9"
-			(at 41.91 121.666 0)
+		(uuid "0d55dff3-837f-4e6f-9107-c8da55e0774f")
+		(property "Reference" "C13"
+			(at 175.26 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
 		)
-		(property "Value" "5k1"
-			(at 43.18 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 44.958 124.46 90)
+		(property "Footprint" "Capacitors:C_0201_Dense"
+			(at 176.2252 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,8 +5211,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
-			(at 43.18 124.46 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,8 +5220,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
-			(at 43.18 124.46 0)
+		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,8 +5229,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 43.18 124.46 90)
+		(property "Manufacturer" "Murata Electronics"
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,8 +5238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
-			(at 43.18 124.46 90)
+		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,8 +5247,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C270344"
-			(at 43.18 124.46 90)
+		(property "LCSC" "C915760"
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,8 +5256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
-			(at 43.18 124.46 90)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,25 +5265,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
-			(at 43.18 124.46 90)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "5291be3e-6880-4aca-871a-530060d6a459")
 		)
 		(pin "2"
-			(uuid "af86f909-9fc7-45c2-816a-37fe3472dc9d")
+			(uuid "3fe0657c-0cb8-4e81-a9b7-f66fd8e2fc21")
+		)
+		(pin "1"
+			(uuid "5eba6c46-8974-4cb1-be7f-0856e65a7d11")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R9")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4992,7 +5302,7 @@
 			(at 77.216 34.036 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -5000,7 +5310,7 @@
 			(at 73.152 53.34 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -5085,68 +5395,68 @@
 			)
 		)
 		(pin "B5"
-			(uuid "a55890bb-ea9e-4de4-b13d-a89960b0db36")
+			(uuid "b602d2ff-993a-45d7-bfe5-eb2bd622b13f")
 		)
 		(pin "S1"
-			(uuid "9183108d-6fdf-4e76-9495-e58f94a56bb4")
+			(uuid "41989e57-39e3-44b9-92d7-06a0bb04d241")
 		)
 		(pin "A1"
-			(uuid "80ed559f-6d56-4c56-bc1e-16b721aa2acb")
+			(uuid "0ebe3d92-42f2-48c8-8eda-94049b6bf486")
 		)
 		(pin "B4"
-			(uuid "03bda7a8-d329-4a0f-817f-1b25b23d7735")
+			(uuid "b01d4b42-47e4-446c-adfd-e9ac6245e5a1")
 		)
 		(pin "B12"
-			(uuid "b311c0d0-3c91-4912-83e6-ace1971207e9")
+			(uuid "42046bca-9b07-4aa6-a0a1-eb332325e625")
 		)
 		(pin "A4"
-			(uuid "6dc9817b-73ea-405a-bb83-597b90d3a63e")
+			(uuid "2605dc01-1e00-442e-90a7-69680915b998")
 		)
 		(pin "A7"
-			(uuid "bdc7e9ac-a730-4aa8-b07f-3ebf734f4cd1")
+			(uuid "fd2a9275-1f06-4701-9df9-d772752f9ac3")
 		)
 		(pin "B9"
-			(uuid "14fad5ba-fa5a-4acf-8f06-600fd3629e73")
+			(uuid "0704d340-87e4-40ee-b901-dfc40face5eb")
 		)
 		(pin "B6"
-			(uuid "64292c2c-c843-4da5-813e-05c2bf9c5f52")
+			(uuid "bb8ee5f3-1697-4472-8b7f-3fc6d3621966")
 		)
 		(pin "A5"
-			(uuid "f5746d12-41c2-442d-94e9-0eb525133cba")
+			(uuid "2d4318fa-29e3-4abe-b3fd-4e67964246c0")
 		)
 		(pin "A9"
-			(uuid "a1553011-f4b5-4d42-8b5c-6411c7660449")
+			(uuid "bc89d8b7-0ecd-4f98-8f6e-c3f1df113ff8")
 		)
 		(pin "B1"
-			(uuid "b75c0765-fa60-4288-9491-cf361f8a6011")
+			(uuid "66969278-a69d-4aa9-a88a-c9f2242f37c8")
 		)
 		(pin "A6"
-			(uuid "c21a7791-8562-4c71-9cbc-a500a81e64cb")
+			(uuid "ccede289-79ee-4ae0-a831-f18802f1b049")
 		)
 		(pin "B7"
-			(uuid "d58c5a1c-7858-467f-94b2-a9d826dab33f")
+			(uuid "dfb35818-cef1-43b0-bc00-d9e51d3d4685")
 		)
 		(pin "A8"
-			(uuid "351d6500-2162-4798-9d9a-afe2516d2842")
+			(uuid "9b4b28d8-3c79-4706-8fe5-1c6bb72125e0")
 		)
 		(pin "B8"
-			(uuid "272479ac-19cf-45ea-8b80-d3f4e95ed577")
+			(uuid "5e282451-f953-45c5-8e96-d54f474bc004")
 		)
 		(pin "A12"
-			(uuid "64bae6d5-0fe8-4004-ac3f-8251b5bb6b48")
+			(uuid "a711ae71-ac52-4f1b-b5e8-1da7c5f2d494")
 		)
 		(pin "S2"
-			(uuid "d8c27634-538a-47e2-b6f2-469da666503a")
+			(uuid "dbc24bbc-53a3-46fe-bc63-c43307148794")
 		)
 		(pin "S3"
-			(uuid "9dc91e8e-261a-4983-b5e5-00e9f346dfb3")
+			(uuid "f66c38ea-6ced-4e4b-8b25-6e3ea0f6f2ac")
 		)
 		(pin "S4"
-			(uuid "38c9ee85-c4da-4251-aaf1-b909516b4bc8")
+			(uuid "5b1a4b20-8664-4e3c-81c0-f69aec68ccb6")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "CN1")
 					(unit 1)
 				)
@@ -5161,21 +5471,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "133a602a-7269-418d-a3b7-9203a30d75a6")
-		(property "Reference" "C9"
+		(uuid "157c3c13-ff39-4994-80f5-3083146685b0")
+		(property "Reference" "C23"
 			(at 129.54 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 129.54 125.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -5189,7 +5499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A226MO7JZN"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -5198,7 +5508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47uF 6.3V X5R 20% 0603 SMD"
+		(property "Description" "22uF 16V X5R ±20% 0603 MLCC SMD"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -5207,7 +5517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -5216,7 +5526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
+		(property "Manufacturer Part Number" "CL10A226MO7JZNC"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -5225,7 +5535,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C140782"
+		(property "LCSC" "C2762594"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -5234,7 +5544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MO7JZNC/7320581"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -5243,7 +5553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=AEetWsPH0It1A1GvJsMuyQ%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MO7JZNC?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQBzruVQvBjN%2FZ5r%2FMGD9SXg%3D%3D"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -5253,15 +5563,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d908f43a-5866-4ed5-a709-c60726cc8d49")
+			(uuid "3e11f788-001c-49a6-a46f-d42c8b41d711")
 		)
 		(pin "2"
-			(uuid "3a452d88-da48-4491-9ac2-b1c9c1cf2382")
+			(uuid "a5f58f19-e781-4389-9e5e-51326a581af9")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C9")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5276,11 +5586,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d2387a8-ff81-4e60-9b51-5782e9c5cdaa")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 105.41 63.246 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -5289,7 +5599,7 @@
 			(at 106.68 66.04 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -5302,7 +5612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -5311,7 +5621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
+		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -5320,7 +5630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 106.68 66.04 90)
 			(effects
 				(font
@@ -5329,7 +5639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
+		(property "Manufacturer Part Number" "AC0201FR-075K1L"
 			(at 106.68 66.04 90)
 			(effects
 				(font
@@ -5338,7 +5648,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C270344"
+		(property "LCSC" "C226588"
 			(at 106.68 66.04 90)
 			(effects
 				(font
@@ -5347,7 +5657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
 			(at 106.68 66.04 90)
 			(effects
 				(font
@@ -5356,7 +5666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
 			(at 106.68 66.04 90)
 			(effects
 				(font
@@ -5366,15 +5676,129 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c7d606d-3fb6-4334-b9a9-5b5f413c599a")
+			(uuid "1112ef4d-2eeb-46fe-bd26-7ad3a505b8bb")
 		)
 		(pin "2"
-			(uuid "c2dc0a71-b587-4102-9c0c-8d11786aacef")
+			(uuid "35cc0cd0-28f9-4c6a-8e3f-9fa7f7b4a934")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R1")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "204f4afc-f142-4834-bd17-6c148818d9be")
+		(property "Reference" "C9"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Capacitors:C_0603_Dense"
+			(at 112.7252 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A226MO7JZN"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF 16V X5R ±20% 0603 MLCC SMD"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A226MO7JZNC"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2762594"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MO7JZNC/7320581"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MO7JZNC?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQBzruVQvBjN%2FZ5r%2FMGD9SXg%3D%3D"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d967f17-5d9e-4402-bc30-d5c888a3f71f")
+		)
+		(pin "2"
+			(uuid "74e05eb1-6269-41c7-bfa7-7b357d518c9b")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5393,7 +5817,7 @@
 			(at 128.27 68.58 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -5402,7 +5826,7 @@
 			(at 124.46 64.7701 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right)
 				(hide yes)
@@ -5489,129 +5913,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "eab75338-0eca-4df3-96be-57141af4d8fa")
+			(uuid "aa4c032e-c61e-4a1f-a64f-d773fccb489a")
 		)
 		(pin "2"
-			(uuid "f14d2263-f23a-436a-bce0-f77d0be311bc")
+			(uuid "dea2fd24-2edf-455a-ba28-d86df0c0c2a0")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 124.46 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "231955dc-9ed0-4781-9d52-7af4f1d618b6")
-		(property "Reference" "C8"
-			(at 124.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "47uF"
-			(at 124.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0603_Dense"
-			(at 125.4252 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47uF 6.3V X5R 20% 0603 SMD"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C140782"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=AEetWsPH0It1A1GvJsMuyQ%3D%3D"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6133255d-cd2d-4633-b985-e67f0d5cb9e2")
-		)
-		(pin "2"
-			(uuid "4c287fac-4f20-49cb-88af-5b748a3c90e6")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5625,21 +5935,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "25644807-1d09-48d8-88c7-be15d04309ff")
-		(property "Reference" "#PWR09"
+		(fields_autoplaced yes)
+		(uuid "26d35119-650c-43bb-bcae-3bde77642d73")
+		(property "Reference" "#PWR018"
 			(at 48.26 100.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+VBus"
-			(at 48.26 92.71 0)
+		(property "Value" "+V_{BUS}"
+			(at 48.26 91.44 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -5671,12 +5982,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "16218e2e-bf10-4cfa-84f6-34e09e869ed3")
+			(uuid "2ea99ffe-4493-46c8-bde6-309074c056c7")
 		)
 		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR09")
+			(project ""
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5691,20 +6002,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30589fb6-1b82-4af7-81f0-d334de71bd48")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 46.99 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
 		)
-		(property "Value" "76k8"
+		(property "Value" "100k"
 			(at 48.26 104.14 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -5726,7 +6037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "76.8kΩ, 25V, 50mW, Thick Film, ±1% 0201 SMD"
+		(property "Description" "100kΩ, 25V, 50mW, Thick Film, ±1% 0201 SMD"
 			(at 48.26 104.14 0)
 			(effects
 				(font
@@ -5744,7 +6055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0201FR-0776K8L"
+		(property "Manufacturer Part Number" "AC0201FR-07100KL"
 			(at 48.26 104.14 90)
 			(effects
 				(font
@@ -5753,7 +6064,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C850692"
+		(property "LCSC" "C226394"
 			(at 48.26 104.14 90)
 			(effects
 				(font
@@ -5762,7 +6073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0776K8L/5894812"
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-07100KL/5894217"
 			(at 48.26 104.14 90)
 			(effects
 				(font
@@ -5771,7 +6082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0776K8L?qs=NgbZBzc1CyFwggkjAUCyjA%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-07100KL?qs=NgbZBzc1CyEjM8v3NDhy8g%3D%3D"
 			(at 48.26 104.14 90)
 			(effects
 				(font
@@ -5781,15 +6092,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "136dc548-44f1-4b13-a99e-d2fa13350519")
+			(uuid "f50a9edc-e13f-40e9-bb19-e61c63c06295")
 		)
 		(pin "1"
-			(uuid "03045bdf-2c9c-4131-bd77-b82dbef0490b")
+			(uuid "0cdd4b98-3885-433c-863f-848194321585")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R3")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5805,11 +6116,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "337ab020-5db8-478e-af33-7b30e3f286e6")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR016"
 			(at 129.54 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -5818,7 +6129,7 @@
 			(at 129.54 86.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -5851,12 +6162,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "79fd3842-fb0f-48c4-a630-8a35a051f3e6")
+			(uuid "130a9ceb-8b03-4dea-8ae4-b92a3fec0440")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR07")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5876,16 +6187,16 @@
 			(at 106.68 36.195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
+		(property "Value" "+V_{BUS}"
 			(at 106.68 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -5917,11 +6228,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2eb2ab48-d42a-476c-884d-aaba883b6309")
+			(uuid "398fb3cb-efb0-4e9d-a206-682059edd03c")
 		)
 		(instances
-			(project ""
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -5929,74 +6240,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39d67843-e423-4603-8f08-6a8504500cba")
-		(property "Reference" "#PWR044"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 55.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "801f43b8-ee1b-4e77-b322-96d6375a107a")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 55.88 50.8 0)
+		(at 71.12 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6005,25 +6250,25 @@
 		(fields_autoplaced yes)
 		(uuid "3b59cb76-4ca8-4d14-a767-2ae96e36a6fd")
 		(property "Reference" "#FLG04"
-			(at 55.88 48.895 0)
+			(at 71.12 158.115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 55.88 45.72 0)
+			(at 71.12 154.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 50.8 0)
+			(at 71.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +6277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 50.8 0)
+			(at 71.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +6286,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 55.88 50.8 0)
+			(at 71.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,12 +6295,126 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c7eff4a-c700-427b-a3b2-9de73105f433")
+			(uuid "6b49c645-f79c-4963-bfd5-a4bf9bb0ff8e")
 		)
 		(instances
-			(project ""
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cdc27a1-d0cf-4d20-a33d-9fc79722c60a")
+		(property "Reference" "C15"
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Capacitors:C_0603_Dense"
+			(at 186.3852 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A226MO7JZN"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF 16V X5R ±20% 0603 MLCC SMD"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A226MO7JZNC"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2762594"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MO7JZNC/7320581"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MO7JZNC?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQBzruVQvBjN%2FZ5r%2FMGD9SXg%3D%3D"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd8ec94b-f05c-454b-8bd5-09522ba434b8")
+		)
+		(pin "2"
+			(uuid "697252b0-a26f-41c1-b793-d18357ee8ee0")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6070,20 +6429,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ffa8b73-478e-4fe3-adb8-90c882d3e572")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 96.52 100.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VF"
+		(property "Value" "+5V_{FUSED}"
 			(at 96.52 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -6115,12 +6474,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "28e71f5b-1ffe-4291-9b3a-df7cfdb78c0c")
+			(uuid "d00ee88f-04a4-4770-a462-db6bf7596eee")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR010")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6136,11 +6495,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b50d44-0c1d-4a02-b4ff-fc979ece8211")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 106.68 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -6149,7 +6508,7 @@
 			(at 106.68 86.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -6182,12 +6541,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "43262fcf-4bec-45b9-bf64-87cae2fff09c")
+			(uuid "cb9a5cac-be97-470d-8576-9061f1afc696")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR04")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6203,11 +6562,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4746ebab-23c7-40ae-82fa-4d2f2e02aec7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR012"
 			(at 86.36 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -6216,7 +6575,7 @@
 			(at 86.36 86.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -6249,12 +6608,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b1cc5a1-2d7f-463d-9004-057a92f96baf")
+			(uuid "029fcff4-e5b9-43ad-90aa-9b848ab40d4b")
 		)
 		(instances
-			(project ""
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR03")
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6270,11 +6629,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e1d3b1-717c-48c5-83ec-eb858733b0c9")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR014"
 			(at 111.76 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -6283,7 +6642,7 @@
 			(at 111.76 86.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -6316,12 +6675,125 @@
 			)
 		)
 		(pin "1"
-			(uuid "850464cb-608c-4488-b004-7970ad92f6d1")
+			(uuid "9ad57da1-dee3-41e1-b0cb-e9c2d367a837")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR05")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a3e3f4e-f384-4f2a-a9b0-4fcf49154cb3")
+		(property "Reference" "R5"
+			(at 110.49 63.246 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "5k1"
+			(at 111.76 66.04 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 113.538 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 111.76 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-075K1L"
+			(at 111.76 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C226588"
+			(at 111.76 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
+			(at 111.76 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
+			(at 111.76 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e12841b-8f06-44af-b022-e564b57abf8d")
+		)
+		(pin "2"
+			(uuid "8c22cfdc-895e-4b75-8441-8c2201c1b596")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6337,11 +6809,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53899c9a-f7bb-480c-96c7-2de6145b7f68")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR023"
 			(at 124.46 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -6350,7 +6822,7 @@
 			(at 124.46 137.16 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -6383,12 +6855,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "48927225-e68c-407c-a2c2-697978acb8a9")
+			(uuid "90cb3be8-4d31-49d1-9584-eb4492d60d62")
 		)
 		(instances
-			(project ""
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR014")
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6396,32 +6868,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 114.3 0)
+		(at 96.52 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5920429c-8951-416c-a436-77614b4517cc")
-		(property "Reference" "R4"
-			(at 46.99 111.76 0)
+		(uuid "56557415-8489-40a7-8d98-8e148187abf3")
+		(property "Reference" "R13"
+			(at 95.25 134.62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
 		)
-		(property "Value" "76k8"
-			(at 48.26 114.3 90)
+		(property "Value" "100k"
+			(at 96.52 137.16 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 46.482 114.3 90)
+			(at 94.742 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6902,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 48.26 114.3 0)
+			(at 96.52 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,8 +6910,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "76.8kΩ, 25V, 50mW, Thick Film, ±1% 0201 SMD"
-			(at 48.26 114.3 0)
+		(property "Description" "100kΩ, 25V, 50mW, Thick Film, ±1% 0201 SMD"
+			(at 96.52 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6920,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 48.26 114.3 90)
+			(at 96.52 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,8 +6928,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0201FR-0776K8L"
-			(at 48.26 114.3 90)
+		(property "Manufacturer Part Number" "AC0201FR-07100KL"
+			(at 96.52 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,8 +6937,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C850692"
-			(at 48.26 114.3 90)
+		(property "LCSC" "C226394"
+			(at 96.52 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,8 +6946,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0776K8L/5894812"
-			(at 48.26 114.3 90)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-07100KL/5894217"
+			(at 96.52 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,8 +6955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0776K8L?qs=NgbZBzc1CyFwggkjAUCyjA%3D%3D"
-			(at 48.26 114.3 90)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-07100KL?qs=NgbZBzc1CyEjM8v3NDhy8g%3D%3D"
+			(at 96.52 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,15 +6965,81 @@
 			)
 		)
 		(pin "2"
-			(uuid "a8c03045-af9b-458f-b7ae-4ebccd4837f4")
+			(uuid "5bd93575-5251-4686-99f6-f0d82d96d531")
 		)
 		(pin "1"
-			(uuid "9760689c-8a8f-4858-9650-b62e11d7b639")
+			(uuid "0cb77e6d-8e90-4141-8edc-aadca59866f2")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R4")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 33.02 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e754878-8cfc-46de-8f9f-467108946bee")
+		(property "Reference" "#PWR017"
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_{EXT}"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ea99ffe-4493-46c8-bde6-309074c056c8")
+		)
+		(instances
+			(project ""
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6509,33 +7047,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 134.62 124.46 0)
+		(at 60.96 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5bf0cfc7-418c-40f1-906e-5e474d03b214")
-		(property "Reference" "C7"
-			(at 134.62 123.19 0)
+		(uuid "6038addc-c411-4070-bc59-1d8ac71a0068")
+		(property "Reference" "C8"
+			(at 60.96 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
-			(at 134.62 125.73 0)
+		(property "Value" "22uF"
+			(at 60.96 105.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitors:C_0201_Dense"
-			(at 135.5852 128.27 0)
+		(property "Footprint" "Capacitors:C_0603_Dense"
+			(at 61.9252 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,8 +7081,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
-			(at 134.62 124.46 0)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A226MO7JZN"
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,8 +7090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
-			(at 134.62 124.46 0)
+		(property "Description" "22uF 16V X5R ±20% 0603 MLCC SMD"
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +7100,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 134.62 124.46 0)
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,8 +7108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 134.62 124.46 0)
+		(property "Manufacturer Part Number" "CL10A226MO7JZNC"
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,8 +7117,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307385"
-			(at 134.62 124.46 0)
+		(property "LCSC" "C2762594"
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,8 +7126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 134.62 124.46 0)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MO7JZNC/7320581"
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,8 +7135,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 134.62 124.46 0)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MO7JZNC?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQBzruVQvBjN%2FZ5r%2FMGD9SXg%3D%3D"
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,15 +7145,128 @@
 			)
 		)
 		(pin "1"
-			(uuid "46099a57-7a07-4816-886a-3e5cf762238b")
+			(uuid "39b593c9-01ee-4ae2-843f-a34360e741e2")
 		)
 		(pin "2"
-			(uuid "8e77192a-775e-4bdf-92b9-41b9321894c4")
+			(uuid "36bfaed4-9748-4782-9dce-a4a4b04c8d70")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C7")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "675b17f8-cbb1-4612-b675-8e269c78c8e1")
+		(property "Reference" "R11"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 55.88 134.62 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 54.102 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 55.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100kΩ, 25V, 50mW, Thick Film, ±1% 0201 SMD"
+			(at 55.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 55.88 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-07100KL"
+			(at 55.88 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C226394"
+			(at 55.88 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-07100KL/5894217"
+			(at 55.88 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-07100KL?qs=NgbZBzc1CyEjM8v3NDhy8g%3D%3D"
+			(at 55.88 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "043091f2-339b-414c-b5b5-badf9ea6da60")
+		)
+		(pin "1"
+			(uuid "1cac1163-dde6-49cc-8f15-ed3d089ed76d")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6634,7 +7285,7 @@
 			(at 133.35 68.58 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -6643,7 +7294,7 @@
 			(at 129.54 64.7701 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right)
 				(hide yes)
@@ -6730,14 +7381,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef7d5d6f-1db8-49ff-a61d-18bd97eb02d8")
+			(uuid "367f11f6-c2b2-40c1-a422-c95b6dd6d74a")
 		)
 		(pin "2"
-			(uuid "0a7c9c47-54d9-4a14-a860-fe1ebbca643e")
+			(uuid "6dc32205-ae7e-4f14-a00e-c572cf303f3e")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D4")
 					(unit 1)
 				)
@@ -6745,7 +7396,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PersonalSchematicSymbolLibrary:TPS2121")
+		(lib_id "My Power Management:TPS2121")
 		(at 71.12 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6753,11 +7404,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f7ebcc5-a630-4dd8-9103-6a9da5f21d5f")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 72.39 115.57 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -6765,7 +7416,7 @@
 			(at 78.74 124.46 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -6850,45 +7501,45 @@
 			)
 		)
 		(pin "2"
-			(uuid "143bf823-8559-4a33-acfc-f4489b32a1f5")
+			(uuid "be313d37-46f2-4aa5-91d2-3c8254086f1c")
 		)
 		(pin "6"
-			(uuid "576b4f35-4133-4c1d-a03f-c628a0a03b56")
+			(uuid "1c6e3c83-4022-4cd9-8d90-b08329797fb0")
 		)
 		(pin "8"
-			(uuid "79d34a9a-6c69-4b0b-8ffa-126986a42f33")
+			(uuid "53169f53-30c9-4420-8fe0-05f8cd79233b")
 		)
 		(pin "11"
-			(uuid "55785709-cb1a-4691-ab96-50b2d68fa7ca")
+			(uuid "800429c6-55d9-4862-ab93-cab8bef8169c")
 		)
 		(pin "7"
-			(uuid "aca9d7d0-9e6d-4491-9c7b-e445bf3994d6")
+			(uuid "aa14010a-7aa3-4788-966c-81ddbca5ecdd")
 		)
 		(pin "4"
-			(uuid "5c475789-e214-4bf6-b19a-22cd9a1dd7ef")
+			(uuid "44a79608-1cd9-47cd-8bb4-bd4edd0bc351")
 		)
 		(pin "3"
-			(uuid "a9b66f80-a800-4da0-b098-b1f6b6157c17")
+			(uuid "f519d736-01c4-4879-a926-f117f39f755d")
 		)
 		(pin "12"
-			(uuid "3a9642d6-b7a3-4192-af35-360ee7890362")
+			(uuid "b49a3b80-a662-46ce-9cd8-152f51d9896c")
 		)
 		(pin "5"
-			(uuid "4e097122-f8b5-46fa-bd4b-4385ef7762f8")
+			(uuid "c9c54ae1-7fb2-454d-9dfa-d0848ce18de6")
 		)
 		(pin "1"
-			(uuid "02dcdb94-9c57-4fd0-9707-0daa7edf21ac")
+			(uuid "5e592337-81d2-4851-a23d-c0e5d428a3af")
 		)
 		(pin "10"
-			(uuid "47e93f0f-3424-4aa0-bc9c-2204d97b4f41")
+			(uuid "57dfbce0-6323-449d-bc4e-3b6273bc7f3c")
 		)
 		(pin "9"
-			(uuid "d3cd5f02-7eb7-4b10-9bb5-8b8b4e02bbb8")
+			(uuid "7c953555-f1b7-4cc3-b80d-efd3e4bedcb4")
 		)
 		(instances
-			(project ""
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "U1")
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6907,7 +7558,7 @@
 			(at 31.75 144.78 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
@@ -6916,7 +7567,7 @@
 			(at 27.94 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -6996,14 +7647,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6254ae13-0114-4a94-ba0b-357a254a781b")
+			(uuid "e19ddf44-dbf4-4222-8066-76fc3de5201e")
 		)
 		(pin "2"
-			(uuid "c2caa640-9a4f-4d21-b830-0d62c4f33dc5")
+			(uuid "ebebc6a3-79fa-484c-9c8b-fe7c5c89c262")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D5")
 					(unit 1)
 				)
@@ -7011,100 +7662,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72996297-6943-4c98-abc2-5defaf6cee90")
-		(property "Reference" "#PWR043"
-			(at 45.72 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b7517bc-00a0-4fe7-a06f-3109e7834406")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 38.1 147.32 0)
+		(at 134.62 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "79363c6f-8ad3-48f8-a79d-022b3d43144e")
-		(property "Reference" "C4"
-			(at 38.1 146.05 0)
+		(uuid "7b279189-c3ab-49b2-bddb-ff5510c74fe6")
+		(property "Reference" "C12"
+			(at 134.62 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47uF"
-			(at 38.1 148.59 0)
+		(property "Value" "0.1uF"
+			(at 134.62 125.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitors:C_0603_Dense"
-			(at 39.0652 151.13 0)
+		(property "Footprint" "Capacitors:C_0201_Dense"
+			(at 135.5852 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,8 +7697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf"
-			(at 38.1 147.32 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,8 +7706,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47uF 6.3V X5R 20% 0603 SMD"
-			(at 38.1 147.32 0)
+		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7716,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 38.1 147.32 0)
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,8 +7724,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
-			(at 38.1 147.32 0)
+		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,8 +7733,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C140782"
-			(at 38.1 147.32 0)
+		(property "LCSC" "C915760"
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,8 +7742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 38.1 147.32 0)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,203 +7751,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=AEetWsPH0It1A1GvJsMuyQ%3D%3D"
-			(at 38.1 147.32 0)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "32c0732d-3ac9-419c-a2ad-ab10ac9d4efe")
 		)
 		(pin "2"
-			(uuid "b357dc78-f0e5-456d-ab44-cc6d2d275208")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79e5ca92-bba7-492b-9a07-38d46810e153")
-		(property "Reference" "R2"
-			(at 110.49 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "5k1"
-			(at 111.76 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 113.538 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
-			(at 111.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
-			(at 111.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 111.76 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
-			(at 111.76 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C270344"
-			(at 111.76 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 111.76 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
-			(at 111.76 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "d967ae1f-8f81-463c-a2ff-64b3b64281c1")
 		)
 		(pin "1"
-			(uuid "19ab3706-6088-4b3b-92b5-df84500b3c31")
-		)
-		(pin "2"
-			(uuid "7e4d2f11-751e-401c-a206-d1c8999b1d5a")
+			(uuid "b2ffec83-b321-41fd-9f93-c090fc6cf3e1")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 33.02 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ab51ca9-e4f9-44b5-98dd-7b64685b4bd4")
-		(property "Reference" "#PWR08"
-			(at 33.02 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5Vext"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06508ba2-c999-4cd5-8324-362d53447f1b")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR08")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7378,11 +7785,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e2f6f73-7290-4dee-a5cc-0bebbec503eb")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR024"
 			(at 139.7 151.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -7391,7 +7798,7 @@
 			(at 139.7 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -7424,12 +7831,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "12a2f4a3-07c8-4306-a851-2557e279ddaf")
+			(uuid "70325832-add4-4fea-9af4-a6e640a00505")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR015")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7437,33 +7844,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 185.42 124.46 0)
+		(at 116.84 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "87441cb5-c8fc-4dca-b124-e4e167dcad8e")
-		(property "Reference" "C14"
-			(at 185.42 123.19 0)
+		(uuid "7fb9c958-d75e-4de3-8409-be386cfc06df")
+		(property "Reference" "C10"
+			(at 116.84 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47uF"
-			(at 185.42 125.73 0)
+		(property "Value" "22uF"
+			(at 116.84 125.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
 		)
 		(property "Footprint" "Capacitors:C_0603_Dense"
-			(at 186.3852 128.27 0)
+			(at 117.8052 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,8 +7878,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf"
-			(at 185.42 124.46 0)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A226MO7JZN"
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,8 +7887,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47uF 6.3V X5R 20% 0603 SMD"
-			(at 185.42 124.46 0)
+		(property "Description" "22uF 16V X5R ±20% 0603 MLCC SMD"
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,8 +7896,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 185.42 124.46 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,8 +7905,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
-			(at 185.42 124.46 0)
+		(property "Manufacturer Part Number" "CL10A226MO7JZNC"
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,8 +7914,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C140782"
-			(at 185.42 124.46 0)
+		(property "LCSC" "C2762594"
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,8 +7923,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 185.42 124.46 0)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MO7JZNC/7320581"
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,8 +7932,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=AEetWsPH0It1A1GvJsMuyQ%3D%3D"
-			(at 185.42 124.46 0)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MO7JZNC?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQBzruVQvBjN%2FZ5r%2FMGD9SXg%3D%3D"
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,15 +7942,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c35c0b81-e439-4e0b-81c6-6574c6ace2a8")
+			(uuid "d14fee0e-9830-4b3e-9091-9100dea836c8")
 		)
 		(pin "2"
-			(uuid "c9783d96-b35d-4f44-9b3e-ebf2ee3c8d8c")
+			(uuid "8cda8ddc-e274-4281-a969-761e07ea553e")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C14")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7559,11 +7966,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a461eeb-8661-4cc2-ae70-e54d772e307f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR021"
 			(at 60.96 118.11 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -7572,7 +7979,7 @@
 			(at 60.96 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -7605,12 +8012,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed87a33a-bf3a-4aaf-9b46-faacbd60025a")
+			(uuid "937f39a7-431a-4ae3-95d9-876843839368")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR012")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7618,32 +8025,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 137.16 0)
+		(at 139.7 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c9f603c-2f27-47b5-993b-c5b9cff58918")
-		(property "Reference" "R6"
-			(at 54.61 134.62 0)
+		(uuid "93075c8d-2894-4295-ae1a-c4bb51405cf8")
+		(property "Reference" "R12"
+			(at 139.7 134.62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify right bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "76k8"
-			(at 55.88 137.16 90)
+		(property "Value" "26k1"
+			(at 139.7 137.16 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 54.102 137.16 90)
+			(at 141.478 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +8059,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 55.88 137.16 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,8 +8067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "76.8kΩ, 25V, 50mW, Thick Film, ±1% 0201 SMD"
-			(at 55.88 137.16 0)
+		(property "Description" "-55℃~+155℃ 25V 26.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +8077,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 55.88 137.16 90)
+			(at 139.7 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,8 +8085,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0201FR-0776K8L"
-			(at 55.88 137.16 90)
+		(property "Manufacturer Part Number" "AC0201FR-0726K1L"
+			(at 139.7 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,8 +8094,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C850692"
-			(at 55.88 137.16 90)
+		(property "LCSC" "C910625"
+			(at 139.7 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,8 +8103,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0776K8L/5894812"
-			(at 55.88 137.16 90)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0726K1L/5894466"
+			(at 139.7 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,67 +8112,59 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0776K8L?qs=NgbZBzc1CyFwggkjAUCyjA%3D%3D"
-			(at 55.88 137.16 90)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0726K1L?qs=NgbZBzc1CyHdkzjeC2WcqA%3D%3D"
+			(at 139.7 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0b50ab2b-450b-4391-82b7-5cfd36a17524")
 		)
 		(pin "1"
-			(uuid "dc8be95d-74cb-435e-af63-883c91eea63d")
+			(uuid "bed18250-8ffb-474e-bfd0-28e0ee1d6046")
+		)
+		(pin "2"
+			(uuid "485d915b-440d-4f66-83dc-ba149ede4238")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R6")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 137.16 0)
+		(lib_id "Device:C")
+		(at 66.04 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8fdcfbf2-3e4a-4603-925d-54b35b43fb4b")
-		(property "Reference" "R7"
-			(at 95.25 134.62 0)
+		(uuid "9ee1e76a-b2c5-4442-9d5a-d724e27b064d")
+		(property "Reference" "C6"
+			(at 66.04 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify right bottom)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "76k8"
-			(at 96.52 137.16 90)
+		(property "Value" "0.1uF"
+			(at 66.04 105.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 94.742 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 96.52 137.16 0)
+		(property "Footprint" "Capacitors:C_0201_Dense"
+			(at 67.0052 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,8 +8172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "76.8kΩ, 25V, 50mW, Thick Film, ±1% 0201 SMD"
-			(at 96.52 137.16 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
+			(at 66.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,8 +8181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 96.52 137.16 90)
+		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+			(at 66.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,8 +8190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0201FR-0776K8L"
-			(at 96.52 137.16 90)
+		(property "Manufacturer" "Murata Electronics"
+			(at 66.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,8 +8199,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C850692"
-			(at 96.52 137.16 90)
+		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
+			(at 66.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,8 +8208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0776K8L/5894812"
-			(at 96.52 137.16 90)
+		(property "LCSC" "C915760"
+			(at 66.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,8 +8217,17 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0776K8L?qs=NgbZBzc1CyFwggkjAUCyjA%3D%3D"
-			(at 96.52 137.16 90)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
+			(at 66.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,15 +8236,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ccef08cd-c11b-4e20-b873-270c688303b4")
+			(uuid "ebc98844-0446-4489-af50-8ce8509244ca")
 		)
 		(pin "1"
-			(uuid "bf6639f5-e778-4181-be78-43305fb689a8")
+			(uuid "50bffbe2-d0ab-4e6e-9d92-c175253c0fdd")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R7")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7852,11 +8260,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fd6c669-7a45-4210-8546-e15ffe3e430b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR041"
 			(at 33.02 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -7865,7 +8273,7 @@
 			(at 33.02 166.37 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -7898,201 +8306,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "35038105-0b8a-413e-9d00-539a7d83a794")
+			(uuid "84fec33e-2f7d-47b8-8a90-411330e7eeb5")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR018")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 35.56 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fdb3b06-7534-4d44-be93-a791c42a2f80")
-		(property "Reference" "#FLG02"
-			(at 35.56 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 35.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32402a8a-3636-43f7-a492-147aada37263")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 180.34 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ffd4086-d46b-4353-8173-7eca70d14715")
-		(property "Reference" "C13"
-			(at 180.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "47uF"
-			(at 180.34 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0603_Dense"
-			(at 181.3052 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47uF 6.3V X5R 20% 0603 SMD"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C140782"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=AEetWsPH0It1A1GvJsMuyQ%3D%3D"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68324552-7ecf-4dfb-a21b-42d480406d89")
-		)
-		(pin "2"
-			(uuid "4d2fc732-6777-49c7-aa26-197fe40b2a69")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PersonalSchematicSymbolLibrary:TVS_Unidirectional")
-		(at 78.74 157.48 90)
+		(lib_id "PersonalSchematicSymbolLibrary:D_Schottky_Filled")
+		(at 78.74 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8100,26 +8327,26 @@
 		(dnp no)
 		(uuid "a161ad47-cce1-485d-a6bd-2ce97b0cb783")
 		(property "Reference" "D6"
-			(at 80.01 160.02 90)
+			(at 80.01 167.64 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
 		)
-		(property "Value" "D15V0H1U2LP-7B"
-			(at 83.82 154.94 0)
+		(property "Value" "SDM1100LP-7"
+			(at 83.82 162.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DFN1006-2"
-			(at 83.82 157.48 0)
+		(property "Footprint" "Personal_FootprintLibrary:DFN2020-2"
+			(at 78.74 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,8 +8354,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D15V0H1U2LP.pdf"
-			(at 78.74 158.75 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SDM1100LP.pdf"
+			(at 78.74 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,18 +8363,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "unidirectional TVS diode"
-			(at 86.36 154.94 0)
+		(property "Description" "Schottky diode, filled shape"
+			(at 78.74 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 78.74 157.48 90)
+			(at 78.74 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,8 +8381,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "D15V0H1U2LP-7B"
-			(at 78.74 157.48 90)
+		(property "Manufacturer Part Number" "SDM1100LP-7"
+			(at 78.74 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,8 +8390,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1973850"
-			(at 78.74 157.48 90)
+		(property "LCSC" "C6999905"
+			(at 78.74 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,8 +8399,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/diodes-incorporated/D15V0H1U2LP-7B/9089765"
-			(at 78.74 157.48 90)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDM1100LP-7/6010159"
+			(at 78.74 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,8 +8408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/D15V0H1U2LP-7B?qs=y6ZabgHbY%252ByqgwdrQEA6wA%3D%3D"
-			(at 78.74 157.48 90)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/SDM1100LP-7?qs=nJRy1mI8RR%252BLBKwWBIPRpg%3D%3D"
+			(at 78.74 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,14 +8418,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "640cd30d-0af6-4432-bf74-c939b998fae3")
+			(uuid "a3d785df-414d-4727-95ea-35e430ee7d90")
 		)
 		(pin "2"
-			(uuid "261b458d-4d21-42fc-88ae-c3b2bfb68a67")
+			(uuid "05c24c7b-854b-4a47-ab3f-da2853dc6872")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D6")
 					(unit 1)
 				)
@@ -8219,7 +8445,7 @@
 			(at 115.57 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
@@ -8228,7 +8454,7 @@
 			(at 111.76 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -8308,14 +8534,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "64ed8a7e-f31f-467a-8a1f-d85fbafa6ae6")
+			(uuid "518b8020-6a96-4a8b-9ba5-2c9142b1f3e4")
 		)
 		(pin "2"
-			(uuid "3536e72e-707a-4f60-bbd9-5cf165b7b194")
+			(uuid "35c343e6-897f-4614-ac99-8ef9056d7092")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D1")
 					(unit 1)
 				)
@@ -8335,7 +8561,7 @@
 			(at 120.65 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
@@ -8344,7 +8570,7 @@
 			(at 116.84 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -8424,15 +8650,194 @@
 			)
 		)
 		(pin "1"
-			(uuid "0eb35f8c-824e-478b-9bf9-b1af9943a8c7")
+			(uuid "6783d1a7-4520-4c5d-9da5-15acbfae4cdc")
 		)
 		(pin "2"
-			(uuid "409295c1-bf49-4925-a714-3b2a5ee0ac6d")
+			(uuid "1c53155a-cbc7-482d-8892-058b6ff92219")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee76a29-55e0-4bd1-bd2a-54600ef1d212")
+		(property "Reference" "#PWR010"
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f7eb79-2394-44c6-8ed7-f91f6730a377")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b138267a-2c6c-494c-b7f4-59d10903d31c")
+		(property "Reference" "R7"
+			(at 48.26 111.76 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "26k1"
+			(at 48.26 114.3 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 50.038 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 48.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 25V 26.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 48.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 48.26 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-0726K1L"
+			(at 48.26 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C910625"
+			(at 48.26 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0726K1L/5894466"
+			(at 48.26 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0726K1L?qs=NgbZBzc1CyHdkzjeC2WcqA%3D%3D"
+			(at 48.26 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfd53575-13e6-4d30-9c6c-75c9e1d0a02e")
+		)
+		(pin "2"
+			(uuid "4d2d5459-62ee-431f-85d0-d8f46603113a")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8446,21 +8851,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb055ec8-0fa9-444d-a675-f1284a3da101")
-		(property "Reference" "C12"
+		(uuid "b4bb5fe2-8ad0-46c3-bfe3-4514e42d47b7")
+		(property "Reference" "C24"
 			(at 43.18 146.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "0.1uF"
 			(at 43.18 148.59 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -8474,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 43.18 147.32 0)
 			(effects
 				(font
@@ -8483,8 +8888,122 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
+		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
 			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C915760"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4df67ed-d7d3-4cc3-be87-aa76e95b235f")
+		)
+		(pin "1"
+			(uuid "4e2d3af5-a0f3-4414-b25e-13edb40c4050")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be2ef9b9-4952-47e0-95ca-ab71a50d018e")
+		(property "Reference" "C11"
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Capacitors:C_0603_Dense"
+			(at 125.4252 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A226MO7JZN"
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF 16V X5R ±20% 0603 MLCC SMD"
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +9012,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 43.18 147.32 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,8 +9020,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 43.18 147.32 0)
+		(property "Manufacturer Part Number" "CL10A226MO7JZNC"
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,8 +9029,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307385"
-			(at 43.18 147.32 0)
+		(property "LCSC" "C2762594"
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,8 +9038,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 43.18 147.32 0)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MO7JZNC/7320581"
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,121 +9047,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 43.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50ad3074-af00-491c-b505-a8040a3c80af")
-		)
-		(pin "2"
-			(uuid "68589e28-aed5-4909-9875-62f61bec4250")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc166bd7-0b23-4cc7-a7d3-3c8429711840")
-		(property "Reference" "R10"
-			(at 54.61 144.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "5k1"
-			(at 55.88 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 57.658 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
-			(at 55.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
-			(at 55.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 55.88 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
-			(at 55.88 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C270344"
-			(at 55.88 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 55.88 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
-			(at 55.88 147.32 90)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MO7JZNC?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQBzruVQvBjN%2FZ5r%2FMGD9SXg%3D%3D"
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,15 +9057,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a52e7259-e785-48ba-a7b1-ac1566af679b")
+			(uuid "ea2dc84c-eb97-4f55-876c-10301bf6390d")
 		)
 		(pin "2"
-			(uuid "4ef09766-2395-4e84-aec4-38b70e62a50d")
+			(uuid "23d69236-c521-425a-b154-b22e725e5804")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R10")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8674,11 +9080,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c16936ff-9282-48d3-85ba-4d761eb74dd1")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 48.26 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -8687,7 +9093,7 @@
 			(at 48.26 124.46 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -8700,7 +9106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -8709,7 +9115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25V 26.1Ω 50mW Thick Film Resistor ±0.5% 0201 Chip Resistor"
+		(property "Description" "-55℃~+155℃ 25V 26.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -8727,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0201DR-0726K1L"
+		(property "Manufacturer Part Number" "AC0201FR-0726K1L"
 			(at 48.26 124.46 90)
 			(effects
 				(font
@@ -8736,7 +9142,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C851693"
+		(property "LCSC" "C910625"
 			(at 48.26 124.46 90)
 			(effects
 				(font
@@ -8745,7 +9151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0201DR-0726K1L/5916681?s=N4IgTCBcDaIEoGEAMYkEYAicC0SDsYAbANJoAyIAugL5A"
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0726K1L/5894466"
 			(at 48.26 124.46 90)
 			(effects
 				(font
@@ -8754,7 +9160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/RC0201DR-0726K1L?qs=9h0bZHM%2F3zLdGrnqTUB76Q%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0726K1L?qs=NgbZBzc1CyHdkzjeC2WcqA%3D%3D"
 			(at 48.26 124.46 90)
 			(effects
 				(font
@@ -8764,309 +9170,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d559c96-8cd5-41ff-9b35-39b47fedb9c3")
+			(uuid "6c9ed9fa-4197-4c2c-ae40-7223cccc1ec1")
 		)
 		(pin "2"
-			(uuid "30b6fcb7-cfe4-4c0d-93fb-436fb189614a")
+			(uuid "851a5e74-6c12-443a-a2c4-ac603fdce6c0")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4bc8408-4f57-477f-9661-00c93b1a470e")
-		(property "Reference" "R8"
-			(at 139.7 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "26k1"
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 141.478 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 26.1Ω 50mW Thick Film Resistor ±0.5% 0201 Chip Resistor"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0201DR-0726K1L"
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C851693"
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/RC0201DR-0726K1L/5916681?s=N4IgTCBcDaIEoGEAMYkEYAicC0SDsYAbANJoAyIAugL5A"
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/RC0201DR-0726K1L?qs=9h0bZHM%2F3zLdGrnqTUB76Q%3D%3D"
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40894d72-745e-4063-a67f-38fac444fe06")
-		)
-		(pin "2"
-			(uuid "c632e262-7a32-4fb2-ad22-61175416b498")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 66.04 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4fed5cd-2c14-4e4c-91de-f6cf395f18f4")
-		(property "Reference" "C2"
-			(at 66.04 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0201_Dense"
-			(at 67.0052 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307385"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5849cab-51c8-42ee-a0ab-0afdc463c44d")
-		)
-		(pin "2"
-			(uuid "f9050b03-d235-4c60-a135-4b87a997acab")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 45.72 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7dcc7f6-03aa-40f3-8801-a08e49dc77c1")
-		(property "Reference" "#FLG03"
-			(at 45.72 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70f2b5ef-e7f0-4e32-b461-49611481a055")
-		)
-		(instances
-			(project ""
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#FLG03")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9081,20 +9193,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce6073ba-ce39-4cfc-a5b8-204c84b23576")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR09"
 			(at 119.38 34.29 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+VBus"
+		(property "Value" "+V_{BUS}"
 			(at 119.38 26.67 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -9126,12 +9238,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a099a8d-4d8d-4849-aff2-08b3c293b921")
+			(uuid "dffaf0b9-71ae-4832-80ba-b2127d3790a2")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR01")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9139,7 +9251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 162.56 0)
+		(at 78.74 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9147,26 +9259,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc5287d-378c-4895-849b-bea341f1c806")
-		(property "Reference" "#PWR019"
-			(at 78.74 168.91 0)
+		(property "Reference" "#PWR043"
+			(at 78.74 176.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 167.64 0)
+			(at 78.74 175.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 162.56 0)
+			(at 78.74 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9175,7 +9287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 162.56 0)
+			(at 78.74 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 162.56 0)
+			(at 78.74 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,12 +9305,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b1cc5a1-2d7f-463d-9004-057a92f96bb4")
+			(uuid "3635c1db-5b7f-4c00-a5d4-3984fc5a25d1")
 		)
 		(instances
-			(project ""
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR019")
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9214,11 +9326,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4de8f6a-238e-4280-a026-f1b842635f70")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR022"
 			(at 116.84 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -9227,7 +9339,7 @@
 			(at 116.84 137.16 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -9260,126 +9372,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a315071c-59cf-44f1-b194-24625d3b1b17")
+			(uuid "7c1bbeb2-7760-4e80-af00-8653e8c08a86")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 175.26 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d55d3a97-5f9c-4be0-909b-0716847201fe")
-		(property "Reference" "C10"
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 175.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0201_Dense"
-			(at 176.2252 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307385"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f420424-e346-4e8d-a214-9a6d33b0e22f")
-		)
-		(pin "2"
-			(uuid "d402a8d7-e8be-4486-9a0d-12b46346673d")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C10")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9395,11 +9393,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f7f273-81ce-4fd3-bd6c-61206eaaa933")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR026"
 			(at 185.42 151.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -9408,7 +9406,7 @@
 			(at 185.42 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -9441,55 +9439,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "e78b1da9-1b7a-4979-b4a6-77e960a1a357")
+			(uuid "4f48c17d-e630-4b01-a195-b7cc10f454fd")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "#PWR017")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 116.84 124.46 0)
+		(lib_id "Device:R")
+		(at 55.88 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d70352ed-194c-4f45-9a9f-af1f63e06f3e")
-		(property "Reference" "C11"
-			(at 116.84 123.19 0)
+		(uuid "d66d0a63-f579-4641-829b-b38aad4d1b7d")
+		(property "Reference" "R10"
+			(at 55.88 142.24 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "47uF"
-			(at 116.84 125.73 0)
+		(property "Value" "26k1"
+			(at 55.88 144.78 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitors:C_0603_Dense"
-			(at 117.8052 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf"
-			(at 116.84 124.46 0)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 57.658 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,8 +9485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47uF 6.3V X5R 20% 0603 SMD"
-			(at 116.84 124.46 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 55.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9506,8 +9494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 116.84 124.46 0)
+		(property "Description" "-55℃~+155℃ 25V 26.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 55.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9515,8 +9503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
-			(at 116.84 124.46 0)
+		(property "Manufacturer" "YAGEO"
+			(at 55.88 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,8 +9512,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C140782"
-			(at 116.84 124.46 0)
+		(property "Manufacturer Part Number" "AC0201FR-0726K1L"
+			(at 55.88 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,8 +9521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 116.84 124.46 0)
+		(property "LCSC" "C910625"
+			(at 55.88 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,8 +9530,17 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=AEetWsPH0It1A1GvJsMuyQ%3D%3D"
-			(at 116.84 124.46 0)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0726K1L/5894466"
+			(at 55.88 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0726K1L?qs=NgbZBzc1CyHdkzjeC2WcqA%3D%3D"
+			(at 55.88 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,364 +9549,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a937075-3ec5-4aa7-9b3a-dc77c8d103f2")
+			(uuid "3eece92d-d06a-49e2-a53b-77cecfaed771")
 		)
 		(pin "2"
-			(uuid "8522fb76-9201-4e02-af7f-5c0a716234fc")
+			(uuid "6760cb2c-acea-4726-bd43-c0084381e75e")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C11")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 60.96 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc760dea-f8af-47d6-a9fe-4835b065982e")
-		(property "Reference" "C1"
-			(at 60.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "47uF"
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0603_Dense"
-			(at 61.9252 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47uF 6.3V X5R 20% 0603 SMD"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C140782"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=AEetWsPH0It1A1GvJsMuyQ%3D%3D"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72919af6-90a3-4c95-82b7-38716631741d")
-		)
-		(pin "2"
-			(uuid "18a237cb-5b93-4d26-903e-c7f2d0307902")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 106.68 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dcd85cdc-3e7f-4123-b369-f535c7634e05")
-		(property "Reference" "C6"
-			(at 106.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 106.68 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0201_Dense"
-			(at 107.6452 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307385"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b067758-603c-4314-8981-742bd8221c8f")
-		)
-		(pin "2"
-			(uuid "513d5780-b62f-4769-9fe8-0ed5c27d7d86")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 111.76 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfcb4bd5-4626-44d3-8a58-0ed86df48e06")
-		(property "Reference" "C5"
-			(at 111.76 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "47uF"
-			(at 111.76 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0603_Dense"
-			(at 112.7252 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47uF 6.3V X5R 20% 0603 SMD"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM188R60J476ME15D"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C140782"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=AEetWsPH0It1A1GvJsMuyQ%3D%3D"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f63b8b79-ecf6-425f-b61f-91269eea6ccf")
-		)
-		(pin "2"
-			(uuid "abee4d44-7cdf-4995-8bbf-cf87fafdfe2b")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PersonalSchematicSymbolLibrary:TPSM82903")
+		(lib_id "My Power DCDC:TPSM8290x")
 		(at 147.32 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9917,11 +9572,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6d969f4-7ef9-41aa-a756-2a4a96c8969e")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 152.4 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -9929,7 +9584,7 @@
 			(at 152.4 115.57 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -10015,42 +9670,42 @@
 			)
 		)
 		(pin "2"
-			(uuid "9de1da2a-b3da-435a-b8c1-8decfb125179")
+			(uuid "974369fe-afc8-4d96-b027-5ae45f8dccb1")
 		)
 		(pin "1"
-			(uuid "bd9728e8-b37b-4f85-a220-d15ff4503b84")
+			(uuid "a923dcaf-d903-4120-98b2-6b0d767f6098")
 		)
 		(pin "3"
-			(uuid "35f1cb54-4123-41fe-be6a-ff4ba60ad084")
+			(uuid "4257cc18-862b-400f-b6c1-e37638421e30")
 		)
 		(pin "7"
-			(uuid "a8d07c3b-eadb-4eb7-b07e-9f883f7be7fc")
+			(uuid "de24d64d-eb42-46c2-a928-59f2cff3cdff")
 		)
 		(pin "5"
-			(uuid "506b4a2b-a4b3-42e6-8a71-bed3356364fd")
+			(uuid "ab61486e-a2bc-4cc4-8c48-c7187696b3e9")
 		)
 		(pin "9"
-			(uuid "d8860abd-e4fe-42bb-9cc8-bde354b5e335")
+			(uuid "4513ed9e-a282-4213-aeb6-e54add4d5f6c")
 		)
 		(pin "11"
-			(uuid "3656d897-e0d2-45bf-b75a-5f1f5df60e17")
+			(uuid "dd0d38c3-fe65-4a03-a047-502877614aa8")
 		)
 		(pin "10"
-			(uuid "951b374b-40d7-4975-8db0-ef1428a6e406")
+			(uuid "57482c2a-64ce-4991-8111-d0170828d864")
 		)
 		(pin "8"
-			(uuid "7558a1eb-6b24-4439-98ce-118caa8d18d0")
+			(uuid "7fc9012c-50c0-419e-af21-3433bc077119")
 		)
 		(pin "6"
-			(uuid "552a0f1d-82bb-473f-b49c-855a7d49a188")
+			(uuid "320bd288-f37b-4b74-bc86-b991b19a0fee")
 		)
 		(pin "4"
-			(uuid "9b7af0c9-5461-4ead-8876-547bd5576f62")
+			(uuid "1387d4a5-e0b3-454b-9c01-b50cda637d40")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "U2")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10064,21 +9719,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3c5806c-daea-4430-8324-8b1e916cffc2")
-		(property "Reference" "C3"
+		(uuid "ea1ec1f9-bba6-4d86-affd-92ae8f06d697")
+		(property "Reference" "C16"
 			(at 101.6 135.89 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "0.1uF"
 			(at 101.6 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -10092,7 +9747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 101.6 137.16 0)
 			(effects
 				(font
@@ -10101,8 +9756,122 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
+		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
 			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C915760"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b992532-cfd3-4ca1-a2dd-86b77f6ddf36")
+		)
+		(pin "1"
+			(uuid "ec987cbb-bd03-4289-ac48-23b7a227acbb")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 38.1 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f96f8d06-0e3d-4e8b-86e7-6c6454bbd202")
+		(property "Reference" "C5"
+			(at 38.1 146.05 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 38.1 148.59 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Capacitors:C_0603_Dense"
+			(at 39.0652 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A226MO7JZN"
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF 16V X5R ±20% 0603 MLCC SMD"
+			(at 38.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +9880,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 101.6 137.16 0)
+			(at 38.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,8 +9888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 101.6 137.16 0)
+		(property "Manufacturer Part Number" "CL10A226MO7JZNC"
+			(at 38.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,8 +9897,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307385"
-			(at 101.6 137.16 0)
+		(property "LCSC" "C2762594"
+			(at 38.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10137,8 +9906,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 101.6 137.16 0)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MO7JZNC/7320581"
+			(at 38.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,8 +9915,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 101.6 137.16 0)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MO7JZNC?qs=sGAEpiMZZMvsSlwiRhF8qtsGU%2FCnaNeQBzruVQvBjN%2FZ5r%2FMGD9SXg%3D%3D"
+			(at 38.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,15 +9925,242 @@
 			)
 		)
 		(pin "1"
-			(uuid "048af336-fcd0-405a-b53a-e637cf87deac")
+			(uuid "ca5903c4-7ae1-497c-899b-058e90c6904a")
 		)
 		(pin "2"
-			(uuid "c5291d9d-228f-4a88-a5ae-4aed133898e6")
+			(uuid "a12d63fd-8762-4a86-be03-8d26f675e5fd")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/e0972e0f-f0f8-4dcf-a84b-49aae9c274e3"
-					(reference "C3")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff029586-0e4c-42dc-bb11-7854937deffc")
+		(property "Reference" "C7"
+			(at 106.68 123.19 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Capacitors:C_0201_Dense"
+			(at 107.6452 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C915760"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97e2e6a0-6d49-41dc-9c83-4e28e82ab3c8")
+		)
+		(pin "1"
+			(uuid "2b1b8e9e-2cf4-4552-b8c4-10c53ae973dd")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffcad329-01b1-41e1-a3fe-e9bb37cfc31e")
+		(property "Reference" "R8"
+			(at 55.88 152.4 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "26k1"
+			(at 55.88 154.94 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 57.658 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 55.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 25V 26.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 55.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 55.88 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-0726K1L"
+			(at 55.88 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C910625"
+			(at 55.88 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0726K1L/5894466"
+			(at 55.88 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0726K1L?qs=NgbZBzc1CyHdkzjeC2WcqA%3D%3D"
+			(at 55.88 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21f346ed-de12-4c5f-9c18-43e2a5dd0791")
+		)
+		(pin "2"
+			(uuid "80e9cb78-1853-458e-aea7-71e56dab7565")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+					(reference "R8")
 					(unit 1)
 				)
 			)

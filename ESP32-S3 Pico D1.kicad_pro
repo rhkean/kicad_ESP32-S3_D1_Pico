@@ -38,7 +38,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.32,
+          "height": 0.36,
           "width": 0.36
         },
         "silk_line_width": 0.1,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -69,6 +69,22 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "clearance|156360000|122730000|40f9a8b6-e158-46b3-a20f-c588b89b3bfa|ff5dfdf5-75c9-4df2-9dd3-1144ab794ac3",
+          ""
+        ],
+        [
+          "clearance|156610000|122420000|e39ed12c-df86-4e04-b51e-790ea7b4dd7e|ff5dfdf5-75c9-4df2-9dd3-1144ab794ac3",
+          ""
+        ],
+        [
+          "clearance|157210000|122420000|3a6c8ea6-4c5a-455a-873f-9c0b7f630d42|ff5dfdf5-75c9-4df2-9dd3-1144ab794ac3",
+          ""
+        ],
+        [
+          "clearance|157460000|122730000|317f58b4-7cfb-49fd-b582-ad10151efe64|ff5dfdf5-75c9-4df2-9dd3-1144ab794ac3",
+          ""
+        ],
         [
           "copper_edge_clearance|146590000|123610000|d9fad04a-086f-48b1-90a5-02d30f377ff4|6e177349-a688-4af3-a1c9-2691b43eb291",
           ""
@@ -560,12 +576,23 @@
       "Capacitors",
       "Resistors",
       "QuinLED",
-      "Personal_FootprintLibrary"
+      "Personal_FootprintLibrary",
+      "VQFN-HR"
     ],
     "pinned_symbol_libs": [
       "PersonalSchematicSymbolLibrary",
       "Global Personal Library",
-      "QuinLED-ESP32"
+      "QuinLED-ESP32",
+      "TPS2HCxx-1",
+      "TPS2HCxx-2",
+      "TPS1HCxx",
+      "TPS2HCxx",
+      "_Power Management",
+      "rhk Power DcDC",
+      "_Power DCDC",
+      "My Power DCDC",
+      "My Power Management",
+      "My Interface - Automotive"
     ]
   },
   "meta": {
@@ -851,20 +878,36 @@
       "Root"
     ],
     [
-      "e0972e0f-f0f8-4dcf-a84b-49aae9c274e3",
-      "USB_Power_Interface"
-    ],
-    [
-      "1bd9ab2f-c548-4f8c-a613-aa21e00826ca",
-      "ESP32-S3-PICO-1"
+      "2e11fda6-397f-44e4-8131-fa876b821c34",
+      "ESP32-S3 Board"
     ],
     [
       "a04a4bdb-30b7-44d7-ac1c-f847f02e7058",
-      "CAN_Interface"
+      "IO_Board"
     ],
     [
-      "bab7d682-b0e3-4047-9d1d-6dbb03ef67cc",
+      "3412d0f1-7c6a-4bf4-a082-dea1354cc758",
+      "ESP32-S3-PICO-1"
+    ],
+    [
+      "4200588e-91b2-4f4d-a724-17f36fdc8840",
+      "USB_Power_Interface"
+    ],
+    [
+      "5dfdd1cc-d89a-4694-84d2-5afab1d208fe",
       "User Interface"
+    ],
+    [
+      "540fc2fe-cab2-4369-b83c-552d75db3d4a",
+      "CAN Bus"
+    ],
+    [
+      "77f6063a-646a-4e08-8e02-8fbdc258c134",
+      "GR86 Inputs"
+    ],
+    [
+      "8aaf86e6-b9c9-461a-bd22-c6804fd1aa12",
+      "WLED Outputs"
     ]
   ],
   "text_variables": {}

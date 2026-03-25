@@ -1551,12 +1551,6 @@
 		(uuid "14a26952-f10d-4366-b366-31709fcf7dcb")
 	)
 	(junction
-		(at 60.96 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22041daf-16fa-40c1-bc03-3f1deef3722d")
-	)
-	(junction
 		(at 66.04 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1569,40 +1563,10 @@
 		(uuid "497ba530-6463-4958-ba7c-31ef89e50a2d")
 	)
 	(junction
-		(at 60.96 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a03ba837-7bce-4b29-a8f8-5ac73ed13396")
-	)
-	(junction
-		(at 86.36 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aaa7793a-a269-4949-b5fb-f4af1890b7d3")
-	)
-	(junction
-		(at 91.44 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8040cad-df10-47d2-b6ca-fb9fa1eaf128")
-	)
-	(junction
 		(at 66.04 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5ff2904-538a-419f-bdd2-77f9e1bac587")
-	)
-	(junction
-		(at 86.36 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da0344b4-1004-449b-b407-c4b64c838595")
-	)
-	(junction
-		(at 91.44 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f911c6aa-0e88-4d06-bb8d-de04d748e12c")
 	)
 	(wire
 		(pts
@@ -1636,6 +1600,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 86.36) (xy 40.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b10fd7-3a95-4d27-9617-eebe0dc321be")
+	)
+	(wire
+		(pts
 			(xy 149.86 91.44) (xy 149.86 95.25)
 		)
 		(stroke
@@ -1646,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 91.44 99.06)
+			(xy 91.44 91.44) (xy 91.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1674,9 +1648,19 @@
 		)
 		(uuid "36f1b010-f973-499c-8967-aebdd81ada7f")
 	)
+	(wire
+		(pts
+			(xy 38.1 99.06) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37079afd-394c-40e1-b500-31fb7edefed7")
+	)
 	(polyline
 		(pts
-			(xy 160.02 93.98) (xy 160.02 119.38)
+			(xy 160.02 91.44) (xy 160.02 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1696,16 +1680,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 96.52) (xy 91.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417d726a-d8c5-44fe-8ee8-da8b984bf4fe")
-	)
-	(wire
-		(pts
 			(xy 160.02 87.63) (xy 160.02 88.9)
 		)
 		(stroke
@@ -1716,17 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 100.33) (xy 86.36 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "486dfe00-97f5-48fe-a212-a76be53d9b70")
-	)
-	(wire
-		(pts
-			(xy 91.44 109.22) (xy 91.44 111.76)
+			(xy 91.44 109.22) (xy 91.44 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1746,23 +1710,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 107.95) (xy 86.36 111.76)
+			(xy 38.1 81.28) (xy 38.1 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "587ff182-2747-4b39-bd19-97f046e97e65")
-	)
-	(wire
-		(pts
-			(xy 55.88 96.52) (xy 55.88 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "596a1cff-5392-4057-b722-4bbf4d4dc5ab")
+		(uuid "613cab25-f30d-46cb-b019-68884c82d275")
 	)
 	(wire
 		(pts
@@ -1773,16 +1727,6 @@
 			(type default)
 		)
 		(uuid "63d782a0-4b53-470a-a468-73c807a480d8")
-	)
-	(wire
-		(pts
-			(xy 86.36 96.52) (xy 81.28 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6437075b-c2a7-499e-af97-c909a16dd99f")
 	)
 	(wire
 		(pts
@@ -1823,26 +1767,6 @@
 			(type default)
 		)
 		(uuid "6a5a7399-203c-42ee-ad85-6b606a6ea27b")
-	)
-	(wire
-		(pts
-			(xy 81.28 111.76) (xy 86.36 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6adb9a3c-7d01-4ced-b615-23103883f053")
-	)
-	(wire
-		(pts
-			(xy 91.44 111.76) (xy 91.44 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73ea458b-0abe-4335-8c1d-319497623bb8")
 	)
 	(wire
 		(pts
@@ -1896,16 +1820,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 111.76) (xy 60.96 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4fd9ef-7751-4a51-904b-c7de73a61601")
-	)
-	(wire
-		(pts
 			(xy 182.88 87.63) (xy 182.88 95.25)
 		)
 		(stroke
@@ -1936,46 +1850,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 81.28 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b34a78b1-5ae4-4c24-876a-580183da469b")
-	)
-	(wire
-		(pts
-			(xy 55.88 107.95) (xy 55.88 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b3c666-830a-4066-8732-ccbf6be2bd7f")
-	)
-	(wire
-		(pts
-			(xy 91.44 91.44) (xy 91.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c291a6-5e70-4575-b165-14dfb1eb9479")
-	)
-	(wire
-		(pts
-			(xy 86.36 111.76) (xy 91.44 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f6d43e-2ad5-4983-bceb-7a6ccd852250")
-	)
-	(wire
-		(pts
 			(xy 60.96 100.33) (xy 60.96 96.52)
 		)
 		(stroke
@@ -1993,6 +1867,16 @@
 			(type default)
 		)
 		(uuid "bc949fa0-1c76-4f97-9375-99b0d99730e5")
+	)
+	(wire
+		(pts
+			(xy 45.72 111.76) (xy 45.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf121f6d-87b8-473c-b58c-b891e9e88cc8")
 	)
 	(wire
 		(pts
@@ -2046,13 +1930,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 96.52) (xy 55.88 96.52)
+			(xy 43.18 111.76) (xy 45.72 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e85e1463-8753-4f62-8706-9947ab72d6a2")
+		(uuid "e0566700-5f28-486b-9922-4f2b7e0aef44")
 	)
 	(wire
 		(pts
@@ -2066,16 +1950,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 107.95) (xy 81.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f10d89b0-976f-467b-bcaa-ddd494cc0bf4")
-	)
-	(wire
-		(pts
 			(xy 182.88 68.58) (xy 182.88 69.85)
 		)
 		(stroke
@@ -2083,6 +1957,16 @@
 			(type default)
 		)
 		(uuid "f74df2f3-9606-46a1-9c66-31aeab877b5b")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 40.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7878f5d-6f56-4473-946d-140a9e3b8b78")
 	)
 	(wire
 		(pts
@@ -2154,122 +2038,111 @@
 		)
 		(uuid "e83a6c0a-6a3f-4370-9b84-e6c09cfb9e9a")
 	)
-	(global_label "IO_02"
-		(shape input)
-		(at 127 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "691da6d0-3b6a-4b0a-8673-95bc6406149a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.3071 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN"
+	(hierarchical_label "Reset Node"
 		(shape output)
 		(at 68.58 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify left)
 		)
-		(uuid "7b717635-f109-4645-ab58-54360a8abc65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0447 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "5ee39218-f27b-4bf2-a348-cb2099f32c70")
 	)
-	(global_label "IO_00"
+	(hierarchical_label "Boot Mode"
 		(shape output)
 		(at 93.98 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify left)
 		)
-		(uuid "7c57d969-2a6d-4803-8f5f-3ed0ef417605")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.2871 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "69058a6c-7618-42cd-9854-5515d2ebc5ef")
 	)
-	(global_label "ST"
+	(hierarchical_label "Activity LED"
 		(shape input)
-		(at 147.32 91.44 180)
-		(fields_autoplaced yes)
+		(at 127 116.84 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "7be5cf14-35cc-4231-9c26-78d8a43f9d28")
+	)
+	(hierarchical_label "+3V3"
+		(shape bidirectional)
+		(at 40.64 104.14 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "88464e0a-a552-4ac7-ae71-fb7c6f9fd7c6")
+	)
+	(hierarchical_label "+5V_{EXT}"
+		(shape bidirectional)
+		(at 40.64 86.36 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "9f8d2a57-2506-4181-85d1-2b40c23da95f")
+	)
+	(hierarchical_label "Pwr Src Ind"
+		(shape input)
+		(at 147.32 91.44 180)
+		(effects
+			(font
+				(size 0.889 0.889)
 			)
 			(justify right)
 		)
-		(uuid "d66c0f2a-87a9-40ed-b929-7bf77d7c88e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.1577 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "ad97cef6-a78b-4483-ac74-b47632aa94a0")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 43.18 111.76 180)
+		(effects
+			(font
+				(size 0.889 0.889)
 			)
+			(justify right)
 		)
+		(uuid "caba3638-9f01-4d49-8d66-5ee4227aa538")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 91.44 83.82 180)
+		(lib_id "power:+3V3")
+		(at 38.1 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "06e83afa-a5c0-45d1-b5cc-4d393fb35eb8")
-		(property "Reference" "R17"
-			(at 90.17 81.026 0)
+		(uuid "14cb4648-1e8c-4855-a074-64ef1137d2a7")
+		(property "Reference" "#PWR069"
+			(at 38.1 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left top)
+				(hide yes)
 			)
 		)
-		(property "Value" "5k1"
-			(at 91.44 83.82 90)
+		(property "Value" "+3V3"
+			(at 38.1 93.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 93.218 83.82 90)
+		(property "Footprint" ""
+			(at 38.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,8 +2150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
-			(at 91.44 83.82 0)
+		(property "Datasheet" ""
+			(at 38.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,53 +2159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 91.44 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
-			(at 91.44 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C270344"
-			(at 91.44 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 91.44 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
-			(at 91.44 83.82 90)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,15 +2169,125 @@
 			)
 		)
 		(pin "1"
-			(uuid "43418601-c627-4aeb-a4a6-0b98b4c175e5")
-		)
-		(pin "2"
-			(uuid "e64b33ef-0503-458d-affe-3c037450b9c9")
+			(uuid "17794576-9316-4397-b403-a1718c6873fa")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "R17")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a449386-641f-4897-8319-8cdd2506c741")
+		(property "Reference" "R14"
+			(at 148.59 70.866 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "5k1"
+			(at 149.86 73.66 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 151.638 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 149.86 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-075K1L"
+			(at 149.86 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C226588"
+			(at 149.86 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
+			(at 149.86 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
+			(at 149.86 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13ab6336-be2c-497f-9583-5522965e64d3")
+		)
+		(pin "2"
+			(uuid "bc13cdad-37f6-4f8f-b12a-6b8a7a046ab1")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2368,7 +2306,7 @@
 			(at 66.04 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -2377,7 +2315,7 @@
 			(at 66.04 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2409,12 +2347,125 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ff13802-ad32-461b-9386-a2178cee3c87")
+			(uuid "647df443-9ffb-4212-927b-a0e311b7f395")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30274b2f-3ac3-4bb8-8e38-09bc2660684f")
+		(property "Reference" "R16"
+			(at 64.77 81.026 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "5k1"
+			(at 66.04 83.82 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 67.818 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 66.04 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-075K1L"
+			(at 66.04 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C226588"
+			(at 66.04 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
+			(at 66.04 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
+			(at 66.04 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4b24945-c240-42ab-abd0-6012a7580159")
+		)
+		(pin "2"
+			(uuid "3bf41d5a-c361-414a-86f5-ba1b28e4bafd")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2428,12 +2479,12 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "335aa99d-632f-4486-a819-00f34ea89ef5")
-		(property "Reference" "R15"
+		(uuid "3690f483-6e4a-4534-8084-abea1999dfaa")
+		(property "Reference" "R19"
 			(at 158.75 70.866 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -2442,7 +2493,7 @@
 			(at 160.02 73.66 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2455,7 +2506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 160.02 73.66 0)
 			(effects
 				(font
@@ -2464,7 +2515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
+		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
 			(at 160.02 73.66 0)
 			(effects
 				(font
@@ -2473,7 +2524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 160.02 73.66 90)
 			(effects
 				(font
@@ -2482,7 +2533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
+		(property "Manufacturer Part Number" "AC0201FR-075K1L"
 			(at 160.02 73.66 90)
 			(effects
 				(font
@@ -2491,7 +2542,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C270344"
+		(property "LCSC" "C226588"
 			(at 160.02 73.66 90)
 			(effects
 				(font
@@ -2500,7 +2551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
 			(at 160.02 73.66 90)
 			(effects
 				(font
@@ -2509,7 +2560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
 			(at 160.02 73.66 90)
 			(effects
 				(font
@@ -2519,15 +2570,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "758817c5-03fb-4f16-aa71-e9753b1085c9")
+			(uuid "0a618476-7cb5-48a0-8dff-ed0655ed81a9")
 		)
 		(pin "2"
-			(uuid "088d1ee5-2d48-41da-ae48-cd11f174af56")
+			(uuid "fcdd6948-79c9-4d2e-9004-9e4bf24ee8c1")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "R15")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2542,11 +2593,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39265d37-0b23-4732-a434-ed3870ef2225")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 161.29 82.55 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -2555,7 +2606,7 @@
 			(at 162.56 87.63 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -2636,15 +2687,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5c8df61-0be8-47f4-8e42-3039094eba07")
+			(uuid "4f2e03f9-521f-4143-890a-65988085e072")
 		)
 		(pin "2"
-			(uuid "e97c4626-afae-4a56-a1a3-21d5be3adb9a")
+			(uuid "be1a2379-8cd2-4af4-857e-c5774b2375e2")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "LED2")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -2660,11 +2711,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47d3163d-697c-4199-b03f-ee969ec23242")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR047"
 			(at 149.86 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -2673,7 +2724,7 @@
 			(at 149.86 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -2706,125 +2757,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f304f56d-5cc5-4eb7-a9bf-342453d6c554")
+			(uuid "917659d7-7cda-4d28-9999-1a8f4a115844")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54c765c0-1c28-4b3a-943c-d2f8b6da8ce9")
-		(property "Reference" "R16"
-			(at 64.77 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "5k1"
-			(at 66.04 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 67.818 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
-			(at 66.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
-			(at 66.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 66.04 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
-			(at 66.04 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C270344"
-			(at 66.04 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 66.04 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
-			(at 66.04 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f325041-5536-46e1-a3b6-366e3e178710")
-		)
-		(pin "2"
-			(uuid "ef56c6ce-ab1a-4bc3-aeb1-b046e277b456")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "R16")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2838,21 +2776,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "57752578-75b9-4f54-b14b-13f30d6760a1")
+		(uuid "4b48af05-bed1-4bce-853f-3b9079e2836d")
 		(property "Reference" "C20"
 			(at 60.96 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "0.1uF"
 			(at 60.96 105.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -2866,7 +2804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -2875,7 +2813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
+		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -2884,7 +2822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -2893,7 +2831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
+		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -2902,7 +2840,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307385"
+		(property "LCSC" "C915760"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -2911,7 +2849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -2920,7 +2858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -2928,16 +2866,16 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "eb3f6b2b-0d78-4d00-9c7f-9dd9e79d3bb2")
 		)
 		(pin "2"
-			(uuid "862bf082-103e-4e86-b2de-3ca8a3067cc0")
+			(uuid "b1ebab24-fdfc-49b1-ab61-f6995a7af87a")
+		)
+		(pin "1"
+			(uuid "e6c8d203-c245-4986-8726-93cf1a3d0310")
 		)
 		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
+			(project ""
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
 					(reference "C20")
 					(unit 1)
 				)
@@ -2945,33 +2883,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 149.86 73.66 180)
+		(lib_id "power:GND")
+		(at 45.72 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5ec53b79-321e-42d3-bd3e-23688b224a97")
-		(property "Reference" "R14"
-			(at 148.59 70.866 0)
+		(fields_autoplaced yes)
+		(uuid "5decd2c0-ce53-4b2d-8da7-26ebf4b542cd")
+		(property "Reference" "#PWR070"
+			(at 45.72 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left top)
+				(hide yes)
 			)
 		)
-		(property "Value" "5k1"
-			(at 149.86 73.66 90)
+		(property "Value" "GND"
+			(at 45.72 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 151.638 73.66 90)
+		(property "Footprint" ""
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,8 +2918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
-			(at 149.86 73.66 0)
+		(property "Datasheet" ""
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,53 +2927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 149.86 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
-			(at 149.86 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C270344"
-			(at 149.86 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 149.86 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
-			(at 149.86 73.66 90)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,242 +2937,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d689a44d-ab88-493d-a1d2-131ab2c04836")
-		)
-		(pin "2"
-			(uuid "61cee374-88e3-4421-95de-e1877b7aa8d4")
+			(uuid "803298bf-ce78-4ea3-9cf9-1a933da96b7d")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 124.46 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e30461f-2ab0-4c58-b80c-a7e6151be92e")
-		(property "Reference" "R18"
-			(at 123.19 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "1k"
-			(at 124.46 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 126.238 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586207687214710784"
-			(at 124.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1kΩ 25V 50mW Thick Film Resistor ±1% SMD 0201"
-			(at 124.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 124.46 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0201WMF1001TEE"
-			(at 124.46 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C270365"
-			(at 124.46 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 124.46 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF1001TEE?qs=e8oIoAS2J1T7UkpD2qWqhA%3D%3D"
-			(at 124.46 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dc28cb5-7e3e-4937-8d08-e522864439ae")
-		)
-		(pin "2"
-			(uuid "bedaa9aa-6c3b-401e-8f45-30b9d2d9c87e")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 81.28 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72357da8-8289-4d65-8508-014ed7ba0356")
-		(property "Reference" "C21"
-			(at 81.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 81.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0201_Dense"
-			(at 82.2452 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307385"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1f0b8bc-e2d5-4b6c-83a6-201476bf04db")
-		)
-		(pin "2"
-			(uuid "dcb1d67b-3c99-42b8-a499-4327367d8847")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "C21")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3294,11 +2958,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "736e394c-e2c9-4614-a986-f984f765008a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 182.88 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -3307,7 +2971,7 @@
 			(at 182.88 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -3340,12 +3004,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "36a2e7f6-961a-4e39-8316-2ebd230d5d2e")
+			(uuid "90dce996-9bc4-4365-a645-c966e64ee5a9")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "#PWR050")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3360,11 +3024,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74579238-fed0-4c4a-8f43-1ebd01134b71")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR037"
 			(at 124.46 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -3373,7 +3037,7 @@
 			(at 124.46 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3405,12 +3069,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "04c816a1-52bd-46ca-82f5-3893100be82c")
+			(uuid "2076c0a0-91ba-438e-a8c5-c6924e402856")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "#PWR047")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3093,7 @@
 			(at 181.61 71.12 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
@@ -3438,7 +3102,7 @@
 			(at 177.8 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -3518,14 +3182,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9d5d7ae-d0f6-49df-9ea0-c1e3cb854691")
+			(uuid "32fd4b44-175c-4736-bd65-8f8aa32a99ac")
 		)
 		(pin "2"
-			(uuid "50eb6240-1b6d-40d2-838a-433cd86c2951")
+			(uuid "4ad516e4-f2c0-408e-9cf3-b55f7ed003e2")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
 					(reference "D10")
 					(unit 1)
 				)
@@ -3541,11 +3205,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aaa742c-e854-4aea-b561-a627e4e6557b")
-		(property "Reference" "LED3"
+		(property "Reference" "LED4"
 			(at 151.13 97.79 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -3554,7 +3218,7 @@
 			(at 152.4 102.87 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -3635,15 +3299,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f30ecb1e-586f-40ae-ba9d-be1b12cd816c")
+			(uuid "9dfd19de-9994-4c69-a015-4d11dcc33ce7")
 		)
 		(pin "1"
-			(uuid "f8a8f4c0-7d96-4299-bd01-ed91fa14b304")
+			(uuid "44ddd814-5049-410c-b234-6aac5d41b71e")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "LED3")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -3659,11 +3323,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e071bf9-54ab-4f0a-817a-f1ed534f0883")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 66.04 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -3672,7 +3336,7 @@
 			(at 66.04 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -3705,12 +3369,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b1cc5a1-2d7f-463d-9004-057a92f96bb3")
+			(uuid "afdbf84c-37b4-471d-85ce-de8eb53224a0")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "#PWR039")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3718,32 +3382,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 109.22 180)
+		(at 91.44 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c198283-210b-4af5-ac4b-2306e3348e23")
-		(property "Reference" "R19"
-			(at 148.59 106.426 0)
+		(uuid "9e52973b-4ca5-4b56-909d-d7b98898bf25")
+		(property "Reference" "R17"
+			(at 90.17 81.026 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
 		)
 		(property "Value" "5k1"
-			(at 149.86 109.22 90)
+			(at 91.44 83.82 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
 		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 151.638 109.22 90)
+			(at 93.218 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,8 +3415,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
-			(at 149.86 109.22 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,8 +3424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
-			(at 149.86 109.22 0)
+		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,8 +3433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 149.86 109.22 90)
+		(property "Manufacturer" "YAGEO"
+			(at 91.44 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,8 +3442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
-			(at 149.86 109.22 90)
+		(property "Manufacturer Part Number" "AC0201FR-075K1L"
+			(at 91.44 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,8 +3451,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C270344"
-			(at 149.86 109.22 90)
+		(property "LCSC" "C226588"
+			(at 91.44 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,8 +3460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
-			(at 149.86 109.22 90)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
+			(at 91.44 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,8 +3469,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
-			(at 149.86 109.22 90)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
+			(at 91.44 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,15 +3479,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "98577357-205c-42b0-90ac-a0c68b28a6f8")
+			(uuid "62d151c0-6179-4e99-9ec0-a92406ec610f")
 		)
 		(pin "2"
-			(uuid "83ce62f5-2412-429d-84fe-e469eebc1285")
+			(uuid "ea49c99b-a432-4cb4-91f1-3ab0d869dcbd")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "R19")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3838,11 +3502,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aee0716e-75cc-482b-8b08-31bb2141f449")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 149.86 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -3851,7 +3515,7 @@
 			(at 149.86 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3883,12 +3547,238 @@
 			)
 		)
 		(pin "1"
-			(uuid "303f3235-f4e3-4c44-867f-f38924ad1158")
+			(uuid "8f90faf2-b08f-4e05-a701-2840798ba6b1")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "#PWR037")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3a54ed3-55a8-466a-9e83-75ecaeb45f40")
+		(property "Reference" "R22"
+			(at 181.61 96.266 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "5k1"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 184.658 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-075K1L"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C226588"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b520c436-b799-4dca-ab97-0339e5ab9b83")
+		)
+		(pin "2"
+			(uuid "8ec6ea45-f404-4d55-b71c-06b90c830d80")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d88b55-5ce0-432a-874a-7e1ddab89c30")
+		(property "Reference" "R18"
+			(at 123.19 86.36 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470R"
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 122.682 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 470R OHM 1% 1/20W 0201"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-07470RL"
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C226558"
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-07470RL/5894660"
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-07470RL?qs=NgbZBzc1CyHiuSAFKqzYpg%3D%3D"
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e04b5de-6560-4db4-97e9-17da46131224")
+		)
+		(pin "2"
+			(uuid "5c23468f-b2f5-45ba-ad67-fd2e7422b428")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3903,11 +3793,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca050a5b-63c2-4c86-82a0-deb8843c60d9")
-		(property "Reference" "LED1"
+		(property "Reference" "LED3"
 			(at 125.73 97.79 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -3916,7 +3806,7 @@
 			(at 127 102.87 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -3997,15 +3887,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b12a3c66-54e9-46ac-8d70-7e4f65c3c3f3")
+			(uuid "30e88cf9-20f8-4c4b-b2a7-60089eac4d3e")
 		)
 		(pin "1"
-			(uuid "8fda8bb5-519e-4529-a4da-b60f7740de3a")
+			(uuid "2874b19c-7c5b-419c-89cb-84c4b2f4b7b9")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "LED1")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -4024,7 +3914,7 @@
 			(at 92.075 100.965 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
@@ -4033,7 +3923,7 @@
 			(at 93.98 104.14 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
@@ -4112,14 +4002,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "622e1fa0-875d-47e3-9695-02941c8f09d0")
+			(uuid "74d84abf-63f0-42b8-b3a5-eeed3961f053")
 		)
 		(pin "2"
-			(uuid "4ff96788-5b42-406b-b6b5-35b9f7ad795a")
+			(uuid "fd2f180b-2037-409e-812f-26b0e67b5803")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
 					(reference "SW2")
 					(unit 1)
 				)
@@ -4139,7 +4029,7 @@
 			(at 91.44 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4148,7 +4038,7 @@
 			(at 91.44 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -4180,11 +4070,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b370c12-97e7-4224-819c-cdb540eea31b")
+			(uuid "1ee43a01-4204-4a1b-bef4-6423cd1a0d30")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -4192,34 +4082,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 86.36 104.14 0)
+		(lib_id "power:+3V3")
+		(at 38.1 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dcbb3c2c-6c2e-4442-a7e6-05cef86af794")
-		(property "Reference" "C22"
-			(at 86.36 102.87 0)
+		(uuid "df7fb456-bbfc-4350-9deb-ffbb573c1fca")
+		(property "Reference" "#PWR071"
+			(at 38.1 85.09 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Value" "1uF"
-			(at 86.36 105.41 0)
+		(property "Value" "+5V_{EXT}"
+			(at 38.1 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitors:C_0201_Dense"
-			(at 87.3252 107.95 0)
+		(property "Footprint" ""
+			(at 38.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,8 +4116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
-			(at 86.36 104.14 0)
+		(property "Datasheet" ""
+			(at 38.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,53 +4125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307385"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 86.36 104.14 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,128 +4135,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3c7b475-a2a5-4e0b-8d40-df80413476e4")
-		)
-		(pin "2"
-			(uuid "b93561b7-f71f-452a-87e3-951d2341fcd0")
+			(uuid "2e996a85-8863-45f4-9d10-c229411d886b")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 182.88 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e05f789a-df79-4994-a8bb-4662dd0a938a")
-		(property "Reference" "R23"
-			(at 181.61 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "5k1"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 184.658 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904583181193217"
-			(at 182.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5.1kΩ 25V 50mW Thick Film Resistor ±1% SMD0201"
-			(at 182.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0201WMF5101TEE"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C270344"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF5101TEE?qs=e8oIoAS2J1RDz7enjiODVQ%3D%3D"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bea3c17c-f7e9-4066-9d1b-60f84dfaa253")
-		)
-		(pin "2"
-			(uuid "86b614f8-0b44-4973-98a1-b08191868627")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "R23")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4428,11 +4156,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e13d9707-e6bd-42ac-af60-9037b3d294f9")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 91.44 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4441,7 +4169,7 @@
 			(at 91.44 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4474,12 +4202,125 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b1cc5a1-2d7f-463d-9004-057a92f96bb6")
+			(uuid "b414ff05-09ce-4797-ab34-763529d3df22")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "#PWR040")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2155478-5387-48cd-8ece-dcd7dcba61d1")
+		(property "Reference" "R15"
+			(at 148.59 106.426 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "5k1"
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistors:R_0201_Dense"
+			(at 151.638 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-075K1L"
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C226588"
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a6e40fe-37e1-4095-a118-137fc28eea2f")
+		)
+		(pin "2"
+			(uuid "894ca9ce-45c4-4602-9f0f-a0dab79e616f")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4494,20 +4335,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e24dba38-fafd-4125-9f07-478ae5ea6b8e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR040"
 			(at 182.88 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5Vext"
+		(property "Value" "+5V_{EXT}"
 			(at 182.88 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -4539,12 +4380,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d916cad9-898f-475c-811b-bfe55c7a121b")
+			(uuid "e10120e9-55d6-406b-80b1-14e7c47f7d0b")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "#PWR049")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4559,11 +4400,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e595e19f-b81f-462d-a984-7f97ac474a3f")
-		(property "Reference" "LED4"
+		(property "Reference" "LED2"
 			(at 181.61 85.09 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -4572,7 +4413,7 @@
 			(at 180.34 80.01 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
@@ -4653,15 +4494,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6428a7d5-8b3f-4963-acc7-d6088f866227")
+			(uuid "97b74427-7230-40e1-8822-c8ccfeab9654")
 		)
 		(pin "1"
-			(uuid "9a8018ba-db1e-4a71-b9fc-8da9835281bf")
+			(uuid "4da67878-0802-436a-8db6-b3a47fda0d6d")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "LED4")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -4680,7 +4521,7 @@
 			(at 66.675 100.965 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
@@ -4689,7 +4530,7 @@
 			(at 68.58 104.14 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
@@ -4768,129 +4609,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9907306d-d8f6-4cbb-9827-f52dd00bfbc6")
+			(uuid "72076de2-9b40-43f5-bbea-df5d7175c5c6")
 		)
 		(pin "2"
-			(uuid "a2b44ceb-db81-4887-a278-a6b3961ad094")
+			(uuid "147e1ad8-db8d-4766-9629-ab83e827c122")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 55.88 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eff50ad2-8a19-43e4-a25a-5858e9702895")
-		(property "Reference" "C19"
-			(at 55.88 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 55.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Capacitors:C_0201_Dense"
-			(at 56.8452 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/966/CL03A105MO3NRNH_Spec.pdf"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 16V X5R 20% 0201 SMD"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL03A105MO3NRNH"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307385"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL03A105MO3NRNH/5961282"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL03A105MO3NRNH?qs=%252B6g0mu59x7LEwOOdfYkIjw%3D%3D"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d819965b-2255-4bc3-9381-dc7c8dc79655")
-		)
-		(pin "2"
-			(uuid "f3e62758-5f0e-4a9e-8b20-fb194e6e6ba7")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4905,11 +4632,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc87d0d7-a1f6-44f6-95ef-93949fe0d697")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 160.02 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -4918,7 +4645,7 @@
 			(at 160.02 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -4950,12 +4677,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fb71565-9781-4ef2-a144-6e62a4aa4abd")
+			(uuid "c7b4a447-9328-49ab-8378-7f99e199fd78")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/bab7d682-b0e3-4047-9d1d-6dbb03ef67cc"
-					(reference "#PWR038")
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
