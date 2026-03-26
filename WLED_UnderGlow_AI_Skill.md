@@ -24,18 +24,29 @@ AI agents and maintainers must:
 ## 3. Current Status (Latest)
 
 ### Completed
-- schematic and PCBs laid out (MCU hat + I/O hat)
-- core BOM captured in `WLED UnderGLow.md`
-- power mux design with reverse battery protection and 1.2A limit
-- current sense design using 1.62kΩ sense resistor and ADC-based fault detection
-- CAN watchdog/suicide logic + wired-OR fault bus
-- pin mapping and preliminary MCU GPIO audit
+- Schematic for both hats
+- PCB layout for MCU hat
+- Core BOM with manufacturer part numbers
+- Power management design with protection features
+- CAN watchdog and fault monitoring logic
+- Preliminary GPIO mapping and pin audit
+- Pin conflict resolution for DS18B20 vs SPI
+- Resolve potential voltage divider on TPS2HC08 EN pins
+- Select wire-to-board connectors
 
-### In-progress / pending
-- final pin conflict resolution (SPI vs DS18B20 vs RMT)
-- validate I/O hat "dirty ground" routing before final Gerber release
-- firmware: 4-hour sleep state flow (Light Sleep → Deep Sleep)
-- final BOM consolidation and quote for JLCPCB assembly options
+### In Progress
+- PCB routing I/O hat (including dirty GND isolation)
+
+### Pending
+- Final GPIO audit
+- Final BOM consolidation and JLCPCB quote
+- Firmware development and testing
+  - Sleep cycles
+  - CAN controller initialization
+  - CAN SPI communications
+  - FAULT handling
+  - Current sensing of load switch
+- Vehicle installation
 
 ## 4. Key Design Decisions
 
@@ -143,3 +154,4 @@ Note: This BOM is extracted from the comprehensive CSV in the project root, incl
 - v1.2 (2026-03-25): updated BOM table to use original BOM from WLED UnderGlow.md with manufacturer and MPN details.
 - v1.3 (2026-03-25): reverted BOM table to use JLCPCB CSV as the most up-to-date source.
 - v1.4 (2026-03-25): updated BOM table to use comprehensive CSV from project root with full manufacturer/MPN/LCSC details.
+- v1.5 (2026-03-25): synced project status with updates from WLED UnderGlow.md technical specification document.
