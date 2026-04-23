@@ -67,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??-1* PinHeader_2x??_P2.54mm_*"
+			(property "ki_fp_filters" "*Connector*:*_2x??-* PinHeader_2x??_P2.54mm_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1752,7 +1752,7 @@
 		)
 		(uuid "5bff07c4-d2b2-46a0-9077-1fd550c457ea")
 	)
-	(label "Reset Node"
+	(label "EN{slash}Reset"
 		(at 172.72 60.96 90)
 		(effects
 			(font
@@ -1982,7 +1982,7 @@
 		)
 		(uuid "ce6ea1d6-e91d-4c4b-a4d6-5740155ddc66")
 	)
-	(label "EN/Reset"
+	(label "EN{slash}Reset"
 		(at 106.68 104.14 90)
 		(effects
 			(font
@@ -2056,12 +2056,12 @@
 	)
 	(hierarchical_label "IO47"
 		(shape bidirectional)
-		(at 160.02 137.16 180)
+		(at 175.26 137.16 0)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2d78ce08-6568-4076-90eb-c727e5b43c17")
 	)
@@ -2089,7 +2089,7 @@
 	)
 	(hierarchical_label "IO17"
 		(shape bidirectional)
-		(at 160.02 147.32 180)
+		(at 160.02 144.78 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2122,12 +2122,12 @@
 	)
 	(hierarchical_label "IO04"
 		(shape bidirectional)
-		(at 116.84 147.32 180)
+		(at 132.08 132.08 0)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "64e2042f-55ee-4197-820e-0587cb269a11")
 	)
@@ -2188,12 +2188,12 @@
 	)
 	(hierarchical_label "IO08"
 		(shape bidirectional)
-		(at 132.08 144.78 0)
+		(at 160.02 147.32 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7e275c0b-7537-4079-8035-88fdd3cd7fb9")
 	)
@@ -2210,7 +2210,7 @@
 	)
 	(hierarchical_label "IO21"
 		(shape bidirectional)
-		(at 175.26 144.78 0)
+		(at 175.26 139.7 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2232,7 +2232,7 @@
 	)
 	(hierarchical_label "IO10"
 		(shape bidirectional)
-		(at 116.84 137.16 180)
+		(at 116.84 134.62 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2243,7 +2243,7 @@
 	)
 	(hierarchical_label "IO06"
 		(shape bidirectional)
-		(at 132.08 147.32 0)
+		(at 132.08 144.78 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2265,7 +2265,7 @@
 	)
 	(hierarchical_label "IO05"
 		(shape bidirectional)
-		(at 132.08 132.08 0)
+		(at 132.08 147.32 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2298,7 +2298,7 @@
 	)
 	(hierarchical_label "IO14"
 		(shape bidirectional)
-		(at 160.02 144.78 180)
+		(at 116.84 139.7 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2353,7 +2353,7 @@
 	)
 	(hierarchical_label "IO12"
 		(shape bidirectional)
-		(at 116.84 139.7 180)
+		(at 116.84 137.16 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2364,12 +2364,12 @@
 	)
 	(hierarchical_label "IO48"
 		(shape bidirectional)
-		(at 175.26 137.16 0)
+		(at 160.02 137.16 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d7eacf3f-fe10-4e07-9c41-450a0056ebad")
 	)
@@ -2408,7 +2408,7 @@
 	)
 	(hierarchical_label "IO16"
 		(shape bidirectional)
-		(at 175.26 139.7 0)
+		(at 175.26 144.78 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2430,7 +2430,7 @@
 	)
 	(hierarchical_label "IO07"
 		(shape bidirectional)
-		(at 116.84 134.62 180)
+		(at 116.84 147.32 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2461,7 +2461,7 @@
 		)
 		(uuid "f6531c3d-2855-4810-accd-2141f2944801")
 	)
-	(hierarchical_label "Relay GND"
+	(hierarchical_label "Isolated GND"
 		(shape bidirectional)
 		(at 175.26 124.46 0)
 		(effects
@@ -2474,14 +2474,15 @@
 	)
 	(symbol
 		(lib_id "PersonalSchematicSymbolLibrary:Conn_02x10_Top_Bottom_MountingPin")
-		(at 165.1 124.46 0)
+		(at 170.18 124.46 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2ecbb01a-fd33-4cf5-9958-4d065ff069d1")
-		(property "Reference" "H2"
+		(property "Reference" "H202"
 			(at 167.64 135.89 0)
 			(effects
 				(font
@@ -2490,7 +2491,7 @@
 			)
 		)
 		(property "Value" "ESP_Header"
-			(at 165.1 152.4 0)
+			(at 170.18 152.4 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2499,8 +2500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:PinHeader_2x10_P2.54mm_Vertical_BottomMount_TopReference"
-			(at 165.1 154.94 0)
+		(property "Footprint" "My Connectors:PinHeader_2x10_P2.54mm_Vertical_THT_BottomMount_TopReference"
+			(at 170.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 134.62 0)
+			(at 168.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2520,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 165.1 157.48 0)
+			(at 170.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2592,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34"
-					(reference "H2")
+					(reference "H202")
 					(unit 1)
 				)
 			)
@@ -2599,14 +2600,15 @@
 	)
 	(symbol
 		(lib_id "PersonalSchematicSymbolLibrary:Conn_02x10_Top_Bottom_MountingPin")
-		(at 121.92 124.46 0)
+		(at 127 124.46 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f2473944-2f96-463c-9937-923d3536c99e")
-		(property "Reference" "H1"
+		(property "Reference" "H201"
 			(at 124.46 135.89 0)
 			(effects
 				(font
@@ -2615,7 +2617,7 @@
 			)
 		)
 		(property "Value" "ESP_Header"
-			(at 125.222 154.94 0)
+			(at 123.698 154.94 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2623,8 +2625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:PinHeader_2x10_P2.54mm_Vertical_BottomMount_TopReference"
-			(at 125.73 161.798 0)
+		(property "Footprint" "My Connectors:PinHeader_2x10_P2.54mm_Vertical_THT_BottomMount_TopReference"
+			(at 123.19 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 134.62 0)
+			(at 125.73 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2644,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 157.988 0)
+			(at 104.14 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2715,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34"
-					(reference "H1")
+					(reference "H201")
 					(unit 1)
 				)
 			)

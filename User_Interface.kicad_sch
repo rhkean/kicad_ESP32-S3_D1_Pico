@@ -268,6 +268,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PersonalSchematicSymbolLibrary:D_Schottky_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_* DFN* DSN*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PersonalSchematicSymbolLibrary:LED_Blue"
 			(pin_numbers
 				(hide yes)
@@ -1118,138 +1268,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PersonalSchematicSymbolLibrary:TVS_Unidirectional"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TVS_Unidirectional"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "unidirectional TVS diode"
-				(at 2.54 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "TVS Unidirectional"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TVS_Unidirectional_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TVS_Unidirectional_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1640,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 111.76) (xy 66.04 111.76)
+			(xy 58.42 111.76) (xy 66.04 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 107.95) (xy 60.96 111.76)
+			(xy 58.42 107.95) (xy 58.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1850,7 +1868,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 100.33) (xy 60.96 96.52)
+			(xy 58.42 100.33) (xy 58.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1860,7 +1878,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 96.52) (xy 66.04 96.52)
+			(xy 58.42 96.52) (xy 66.04 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2124,7 +2142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14cb4648-1e8c-4855-a074-64ef1137d2a7")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0602"
 			(at 38.1 102.87 0)
 			(effects
 				(font
@@ -2174,7 +2192,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR069")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -2189,13 +2207,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a449386-641f-4897-8319-8cdd2506c741")
-		(property "Reference" "R14"
-			(at 148.59 70.866 0)
+		(property "Reference" "R604"
+			(at 148.59 73.66 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left top)
+				(justify top)
 			)
 		)
 		(property "Value" "5k1"
@@ -2206,7 +2224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Dense"
 			(at 151.638 73.66 90)
 			(effects
 				(font
@@ -2287,7 +2305,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "R14")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -2302,7 +2320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "264d13fd-e639-412d-8159-298f9f6f363f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0604"
 			(at 66.04 72.39 0)
 			(effects
 				(font
@@ -2352,7 +2370,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR035")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -2360,20 +2378,20 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 83.82 180)
+		(at 66.04 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "30274b2f-3ac3-4bb8-8e38-09bc2660684f")
-		(property "Reference" "R16"
-			(at 64.77 81.026 0)
+		(property "Reference" "R601"
+			(at 64.77 83.82 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left top)
+				(justify bottom)
 			)
 		)
 		(property "Value" "5k1"
@@ -2384,8 +2402,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 67.818 83.82 90)
+		(property "Footprint" "My Resistors:R_0201_Dense"
+			(at 64.262 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2483,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "R16")
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -2480,13 +2498,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3690f483-6e4a-4534-8084-abea1999dfaa")
-		(property "Reference" "R19"
-			(at 158.75 70.866 0)
+		(property "Reference" "R606"
+			(at 158.75 73.66 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left top)
+				(justify top)
 			)
 		)
 		(property "Value" "5k1"
@@ -2497,7 +2515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Dense"
 			(at 161.798 73.66 90)
 			(effects
 				(font
@@ -2578,7 +2596,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "R19")
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -2593,13 +2611,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39265d37-0b23-4732-a434-ed3870ef2225")
-		(property "Reference" "LED1"
-			(at 161.29 82.55 90)
+		(property "Reference" "LED603"
+			(at 158.115 83.82 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right top)
+				(justify bottom)
 			)
 		)
 		(property "Value" "Orange"
@@ -2695,7 +2713,120 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "LED1")
+					(reference "LED603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e761202-f57d-4e7f-abb1-143f48c15ece")
+		(property "Reference" "R607"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "470R"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "My Resistors:R_0201_Dense"
+			(at 181.102 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 470R OHM 1% 1/20W 0201"
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0201FR-07470RL"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C226558"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-07470RL/5894660"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-07470RL?qs=NgbZBzc1CyHiuSAFKqzYpg%3D%3D"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7273dbe-2382-4015-b83b-5c0c38238fc0")
+		)
+		(pin "2"
+			(uuid "958c7420-5311-44f5-a368-32712c1be9af")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
+					(reference "R607")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47d3163d-697c-4199-b03f-ee969ec23242")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0610"
 			(at 149.86 123.19 0)
 			(effects
 				(font
@@ -2762,7 +2893,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR047")
+					(reference "#PWR0610")
 					(unit 1)
 				)
 			)
@@ -2770,15 +2901,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 104.14 0)
+		(at 58.42 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4b48af05-bed1-4bce-853f-3b9079e2836d")
-		(property "Reference" "C20"
-			(at 60.96 102.87 0)
+		(property "Reference" "C601"
+			(at 58.42 102.87 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2787,7 +2918,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 60.96 105.41 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2795,8 +2926,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitors:C_0201_Dense"
-			(at 61.9252 107.95 0)
+		(property "Footprint" "My Capacitors:C_0201_Dense"
+			(at 59.3852 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2936,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT033R61E104KE01-01.pdf"
-			(at 60.96 104.14 0)
+			(at 58.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2945,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X5R ±10% 0201 MLCC"
-			(at 60.96 104.14 0)
+			(at 58.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2954,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 60.96 104.14 0)
+			(at 58.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2963,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRT033R61E104KE01D"
-			(at 60.96 104.14 0)
+			(at 58.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2972,7 @@
 			)
 		)
 		(property "LCSC" "C915760"
-			(at 60.96 104.14 0)
+			(at 58.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2981,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/murata-electronics/GRT033R61E104KE01D/10696558"
-			(at 60.96 104.14 0)
+			(at 58.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2990,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRT033R61E104KE01D?qs=qkDYIeTQ%252BEmFaCFBTCLijg%3D%3D"
-			(at 60.96 104.14 0)
+			(at 58.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,9 +3005,9 @@
 			(uuid "e6c8d203-c245-4986-8726-93cf1a3d0310")
 		)
 		(instances
-			(project ""
+			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "C20")
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -2892,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5decd2c0-ce53-4b2d-8da7-26ebf4b542cd")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0603"
 			(at 45.72 123.19 0)
 			(effects
 				(font
@@ -2942,7 +3073,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR070")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -2958,7 +3089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "736e394c-e2c9-4614-a986-f984f765008a")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0613"
 			(at 182.88 123.19 0)
 			(effects
 				(font
@@ -3009,7 +3140,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR049")
+					(reference "#PWR0613")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74579238-fed0-4c4a-8f43-1ebd01134b71")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0608"
 			(at 124.46 72.39 0)
 			(effects
 				(font
@@ -3074,31 +3205,31 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR037")
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PersonalSchematicSymbolLibrary:TVS_Unidirectional")
+		(lib_id "PersonalSchematicSymbolLibrary:D_Schottky_Filled")
 		(at 182.88 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "753c796b-f13e-41d7-a4b1-9b11f66d89f5")
-		(property "Reference" "D10"
-			(at 181.61 71.12 90)
+		(uuid "7783551a-e224-491d-b1d8-e1b7cbd084ac")
+		(property "Reference" "D601"
+			(at 180.975 73.66 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right bottom)
+				(justify top)
 			)
 		)
-		(property "Value" "D15V0H1U2LP-7B"
+		(property "Value" "PMEG4002ESFYL"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -3108,8 +3239,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Personal_FootprintLibrary:DFN1006-2"
-			(at 177.8 73.66 0)
+		(property "Footprint" "Personal_FootprintLibrary:DSN0603-2"
+			(at 182.88 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,8 +3248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D15V0H1U2LP.pdf"
-			(at 182.88 72.39 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4002ESF.pdf"
+			(at 182.88 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,17 +3257,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "unidirectional TVS diode"
-			(at 175.26 76.2 0)
+		(property "Description" "Schottky diode, filled shape"
+			(at 182.88 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Diodes Incorporated"
+		(property "Manufacturer" "Nexperia USA Inc."
 			(at 182.88 73.66 90)
 			(effects
 				(font
@@ -3145,7 +3275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "D15V0H1U2LP-7B"
+		(property "Manufacturer Part Number" "PMEG4002ESFYL"
 			(at 182.88 73.66 90)
 			(effects
 				(font
@@ -3154,7 +3284,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1973850"
+		(property "LCSC" "C22435168"
 			(at 182.88 73.66 90)
 			(effects
 				(font
@@ -3163,7 +3293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/diodes-incorporated/D15V0H1U2LP-7B/9089765"
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG4002ESFYL/5395786"
 			(at 182.88 73.66 90)
 			(effects
 				(font
@@ -3172,7 +3302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/D15V0H1U2LP-7B?qs=y6ZabgHbY%252ByqgwdrQEA6wA%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Nexperia/PMEG4002ESFYL?qs=Yna0arPQ0CSta5CQy4fS5A%3D%3D"
 			(at 182.88 73.66 90)
 			(effects
 				(font
@@ -3182,15 +3312,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "32fd4b44-175c-4736-bd65-8f8aa32a99ac")
+			(uuid "a55ac5c2-9232-49c7-8b01-8f0dce19c662")
 		)
 		(pin "2"
-			(uuid "4ad516e4-f2c0-408e-9cf3-b55f7ed003e2")
+			(uuid "db2b0b8c-d3dd-4b3d-92c7-98107402134d")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "D10")
+					(reference "D601")
 					(unit 1)
 				)
 			)
@@ -3205,13 +3335,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aaa742c-e854-4aea-b561-a627e4e6557b")
-		(property "Reference" "LED4"
-			(at 151.13 97.79 90)
+		(property "Reference" "LED602"
+			(at 147.955 99.06 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right top)
+				(justify bottom)
 			)
 		)
 		(property "Value" "Green"
@@ -3242,7 +3372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green LED"
+		(property "Description" "CHIP LED 0201 GREEN SMD"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -3307,7 +3437,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "LED4")
+					(reference "LED602")
 					(unit 1)
 				)
 			)
@@ -3323,7 +3453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e071bf9-54ab-4f0a-817a-f1ed534f0883")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0605"
 			(at 66.04 123.19 0)
 			(effects
 				(font
@@ -3374,7 +3504,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR042")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -3382,20 +3512,20 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 83.82 180)
+		(at 91.44 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9e52973b-4ca5-4b56-909d-d7b98898bf25")
-		(property "Reference" "R17"
-			(at 90.17 81.026 0)
+		(property "Reference" "R602"
+			(at 90.17 83.82 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left top)
+				(justify bottom)
 			)
 		)
 		(property "Value" "5k1"
@@ -3406,8 +3536,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 93.218 83.82 90)
+		(property "Footprint" "My Resistors:R_0201_Dense"
+			(at 89.662 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3617,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "R17")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -3502,7 +3632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aee0716e-75cc-482b-8b08-31bb2141f449")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0609"
 			(at 149.86 72.39 0)
 			(effects
 				(font
@@ -3552,120 +3682,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 182.88 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3a54ed3-55a8-466a-9e83-75ecaeb45f40")
-		(property "Reference" "R22"
-			(at 181.61 96.266 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "5k1"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistors:R_0201_Dense"
-			(at 184.658 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 182.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 25V 5.1kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201"
-			(at 182.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0201FR-075K1L"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C226588"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-075K1L/5894738"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-075K1L?qs=NgbZBzc1CyEpZtmyay6EFQ%3D%3D"
-			(at 182.88 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b520c436-b799-4dca-ab97-0339e5ab9b83")
-		)
-		(pin "2"
-			(uuid "8ec6ea45-f404-4d55-b71c-06b90c830d80")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "R22")
+					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
@@ -3680,13 +3697,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3d88b55-5ce0-432a-874a-7e1ddab89c30")
-		(property "Reference" "R18"
-			(at 123.19 86.36 90)
+		(property "Reference" "R603"
+			(at 123.19 83.82 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
 		(property "Value" "470R"
@@ -3697,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Dense"
 			(at 122.682 83.82 90)
 			(effects
 				(font
@@ -3778,7 +3795,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "R18")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -3793,13 +3810,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca050a5b-63c2-4c86-82a0-deb8843c60d9")
-		(property "Reference" "LED3"
-			(at 125.73 97.79 90)
+		(property "Reference" "LED601"
+			(at 122.555 99.06 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right top)
+				(justify bottom)
 			)
 		)
 		(property "Value" "Blue"
@@ -3895,7 +3912,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "LED3")
+					(reference "LED601")
 					(unit 1)
 				)
 			)
@@ -3910,13 +3927,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cde04d9a-819c-4ad4-89fb-bfde4d0b28e7")
-		(property "Reference" "SW2"
-			(at 92.075 100.965 90)
+		(property "Reference" "SW602"
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Value" "SPST-NO"
@@ -4010,7 +4027,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "SW2")
+					(reference "SW602")
 					(unit 1)
 				)
 			)
@@ -4025,7 +4042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da474aab-e3b0-433c-b40c-cdb0339d2b08")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0606"
 			(at 91.44 72.39 0)
 			(effects
 				(font
@@ -4075,7 +4092,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR036")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -4090,7 +4107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df7fb456-bbfc-4350-9deb-ffbb573c1fca")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0601"
 			(at 38.1 85.09 0)
 			(effects
 				(font
@@ -4140,7 +4157,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR071")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -4156,7 +4173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e13d9707-e6bd-42ac-af60-9037b3d294f9")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0607"
 			(at 91.44 123.19 0)
 			(effects
 				(font
@@ -4207,7 +4224,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR044")
+					(reference "#PWR0607")
 					(unit 1)
 				)
 			)
@@ -4222,13 +4239,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2155478-5387-48cd-8ece-dcd7dcba61d1")
-		(property "Reference" "R15"
-			(at 148.59 106.426 0)
+		(property "Reference" "R605"
+			(at 148.59 109.22 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left top)
+				(justify top)
 			)
 		)
 		(property "Value" "5k1"
@@ -4239,7 +4256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Dense"
 			(at 151.638 109.22 90)
 			(effects
 				(font
@@ -4320,7 +4337,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "R15")
+					(reference "R605")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e24dba38-fafd-4125-9f07-478ae5ea6b8e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0612"
 			(at 182.88 72.39 0)
 			(effects
 				(font
@@ -4385,7 +4402,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR040")
+					(reference "#PWR0612")
 					(unit 1)
 				)
 			)
@@ -4400,22 +4417,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e595e19f-b81f-462d-a984-7f97ac474a3f")
-		(property "Reference" "LED2"
-			(at 181.61 85.09 90)
+		(property "Reference" "LED604"
+			(at 180.975 83.82 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right top)
+				(justify top)
 			)
 		)
 		(property "Value" "Red"
-			(at 180.34 80.01 90)
+			(at 185.42 87.63 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Personal_FootprintLibrary:LED_0201-2"
@@ -4502,7 +4519,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "LED2")
+					(reference "LED604")
 					(unit 1)
 				)
 			)
@@ -4517,13 +4534,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb3d0a4c-093c-4ed4-8053-e5b9fdd12a36")
-		(property "Reference" "SW1"
-			(at 66.675 100.965 90)
+		(property "Reference" "SW601"
+			(at 64.77 104.14 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Value" "SPST-NO"
@@ -4617,7 +4634,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "SW1")
+					(reference "SW601")
 					(unit 1)
 				)
 			)
@@ -4632,7 +4649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc87d0d7-a1f6-44f6-95ef-93949fe0d697")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0611"
 			(at 160.02 72.39 0)
 			(effects
 				(font
@@ -4682,7 +4699,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/5dfdd1cc-d89a-4694-84d2-5afab1d208fe"
-					(reference "#PWR039")
+					(reference "#PWR0611")
 					(unit 1)
 				)
 			)
