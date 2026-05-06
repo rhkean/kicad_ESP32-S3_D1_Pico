@@ -2056,7 +2056,7 @@
 		)
 		(uuid "e83a6c0a-6a3f-4370-9b84-e6c09cfb9e9a")
 	)
-	(hierarchical_label "Reset Node"
+	(hierarchical_label "~{Reset Node}"
 		(shape output)
 		(at 68.58 91.44 0)
 		(effects

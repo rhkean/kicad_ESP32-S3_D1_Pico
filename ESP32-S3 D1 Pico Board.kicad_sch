@@ -5,7 +5,7 @@
 	(uuid "32ecabba-7a1e-45f3-a8aa-1fa89167b162")
 	(paper "A4")
 	(lib_symbols
-		(symbol "PersonalSchematicSymbolLibrary:Conn_02x10_Top_Bottom_MountingPin"
+		(symbol "PersonalSchematicSymbolLibrary:Conn_02x10_Top_Bottom"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x10_Top_Bottom_MountingPin"
+			(property "Value" "Conn_02x10_Top_Bottom"
 				(at 3.81 -25.4 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x10_Top_Bottom_MountingPin_1_1"
+			(symbol "Conn_02x10_Top_Bottom_1_1"
 				(rectangle
 					(start 0 1.27)
 					(end 5.08 -24.13)
@@ -1752,7 +1752,7 @@
 		)
 		(uuid "5bff07c4-d2b2-46a0-9077-1fd550c457ea")
 	)
-	(label "EN{slash}Reset"
+	(label "EN{slash}~{Reset}"
 		(at 172.72 60.96 90)
 		(effects
 			(font
@@ -1982,7 +1982,7 @@
 		)
 		(uuid "ce6ea1d6-e91d-4c4b-a4d6-5740155ddc66")
 	)
-	(label "EN{slash}Reset"
+	(label "EN{slash}~{Reset}"
 		(at 106.68 104.14 90)
 		(effects
 			(font
@@ -2043,7 +2043,7 @@
 		)
 		(uuid "0cd218ae-ef88-4b2c-beb2-3a3861de19cd")
 	)
-	(hierarchical_label "EN{slash}Reset"
+	(hierarchical_label "EN{slash}~{Reset}"
 		(shape input)
 		(at 132.08 124.46 0)
 		(effects
@@ -2473,12 +2473,12 @@
 		(uuid "fb1e9108-4d34-4583-97f9-c77c97a8c0be")
 	)
 	(symbol
-		(lib_id "PersonalSchematicSymbolLibrary:Conn_02x10_Top_Bottom_MountingPin")
+		(lib_id "PersonalSchematicSymbolLibrary:Conn_02x10_Top_Bottom")
 		(at 170.18 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2ecbb01a-fd33-4cf5-9958-4d065ff069d1")
@@ -2501,12 +2501,11 @@
 			)
 		)
 		(property "Footprint" "My Connectors:PinHeader_2x10_P2.54mm_Vertical_THT_BottomMount_TopReference"
-			(at 170.18 154.94 0)
+			(at 171.45 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -2520,12 +2519,11 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 157.48 0)
+			(at 170.18 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -2599,12 +2597,12 @@
 		)
 	)
 	(symbol
-		(lib_id "PersonalSchematicSymbolLibrary:Conn_02x10_Top_Bottom_MountingPin")
+		(lib_id "PersonalSchematicSymbolLibrary:Conn_02x10_Top_Bottom")
 		(at 127 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f2473944-2f96-463c-9937-923d3536c99e")
@@ -2626,7 +2624,7 @@
 			)
 		)
 		(property "Footprint" "My Connectors:PinHeader_2x10_P2.54mm_Vertical_THT_BottomMount_TopReference"
-			(at 123.19 161.798 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2642,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 157.988 0)
+			(at 127 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2772,7 @@
 				(justify left)
 			)
 		)
-		(pin "EN" input
+		(pin "EN{slash}~{RST}" input
 			(at 106.68 93.98 270)
 			(uuid "387eeb69-231e-4bf9-9070-e46199f19b35")
 			(effects
@@ -3296,7 +3294,7 @@
 				(justify left)
 			)
 		)
-		(pin "Reset Node" output
+		(pin "~{Reset Node}" output
 			(at 172.72 50.8 270)
 			(uuid "c5387233-4194-43ae-b019-92eac89bec95")
 			(effects

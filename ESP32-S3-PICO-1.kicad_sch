@@ -2563,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 157.48 81.28)
+			(xy 157.48 81.28) (xy 170.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 127) (xy 116.84 127)
+			(xy 101.6 127) (xy 105.41 127)
 		)
 		(stroke
 			(width 0)
@@ -2723,16 +2723,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 81.28) (xy 168.91 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b827e7-7819-4a6e-a091-6b8b78d1f4ea")
-	)
-	(wire
-		(pts
 			(xy 170.18 73.66) (xy 157.48 73.66)
 		)
 		(stroke
@@ -2790,6 +2780,16 @@
 			(type default)
 		)
 		(uuid "c2bd0c01-2e21-4028-b1f0-cb43464e3731")
+	)
+	(wire
+		(pts
+			(xy 113.03 127) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a3248b-204d-4bfd-93ee-743263df6e85")
 	)
 	(wire
 		(pts
@@ -3021,6 +3021,16 @@
 		)
 		(uuid "65e8b520-d2d9-414e-8d70-1836c541b68f")
 	)
+	(label "GPIO21"
+		(at 114.3 127 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify bottom)
+		)
+		(uuid "66b64540-f84d-4d6e-a122-698affc74317")
+	)
 	(label "GPIO12"
 		(at 114.3 104.14 0)
 		(effects
@@ -3195,7 +3205,7 @@
 		)
 		(uuid "6f776491-02f0-46bc-ac1f-2ec31b906085")
 	)
-	(hierarchical_label "EN"
+	(hierarchical_label "EN{slash}~{RST}"
 		(shape input)
 		(at 170.18 73.66 0)
 		(effects
@@ -3803,15 +3813,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 81.28 270)
+		(at 109.22 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2b5b0dff-5ffb-4d42-9457-a73d5e4bb26e")
-		(property "Reference" "R?"
-			(at 161.29 80.645 90)
+		(property "Reference" "R406"
+			(at 105.41 126.365 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -3820,7 +3830,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 165.1 81.28 90)
+			(at 109.22 127 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -3828,7 +3838,7 @@
 			)
 		)
 		(property "Footprint" "My Resistors:R_0201_Dense"
-			(at 165.1 79.502 90)
+			(at 109.22 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3847,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 165.1 81.28 0)
+			(at 109.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3856,7 @@
 			)
 		)
 		(property "Description" "RES SMD 33 OHM 1% 1/20W 0201 AEC-Q200"
-			(at 165.1 81.28 0)
+			(at 109.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +3865,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 165.1 81.28 90)
+			(at 109.22 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3874,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "AC0201FR-0733RL"
-			(at 165.1 81.28 90)
+			(at 109.22 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3883,7 @@
 			)
 		)
 		(property "LCSC" "C226514"
-			(at 165.1 81.28 90)
+			(at 109.22 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3892,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201FR-0733RL/5894558"
-			(at 165.1 81.28 90)
+			(at 109.22 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3901,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201FR-0733RL?qs=NgbZBzc1CyGsdL%2FSauAQCA%3D%3D"
-			(at 165.1 81.28 90)
+			(at 109.22 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3918,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "R?")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -5728,7 +5738,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "def1bdee-002f-4176-852e-4df3c6542914")
-		(property "Reference" "R?"
+		(property "Reference" "R407"
 			(at 171.45 100.965 90)
 			(effects
 				(font
@@ -5826,7 +5836,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "R?")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -6376,7 +6386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc0ad89b-944a-4ce6-861b-698e20724520")
-		(property "Reference" "R?"
+		(property "Reference" "R408"
 			(at 171.45 103.505 90)
 			(effects
 				(font
@@ -6474,7 +6484,7 @@
 		(instances
 			(project "ESP32-S3 Pico D1"
 				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "R?")
+					(reference "R408")
 					(unit 1)
 				)
 			)
