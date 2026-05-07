@@ -2806,12 +2806,6 @@
 		(uuid "95dca0e0-910f-4523-97ec-c05a59d76da5")
 	)
 	(junction
-		(at 33.02 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97a9a1a9-34e8-4674-b428-ddf48f201f22")
-	)
-	(junction
 		(at 104.14 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2852,18 +2846,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ced7b7bf-6c34-45ed-afe1-40601280ed0d")
-	)
-	(junction
-		(at 96.52 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da063916-a783-4ef0-aef2-c8cac75f323c")
-	)
-	(junction
-		(at 185.42 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df69d3c1-65e9-4d08-8858-e27e5b27c711")
 	)
 	(junction
 		(at 129.54 74.93)
@@ -3057,16 +3039,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 104.14) (xy 33.02 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14db7a7d-a526-427c-83de-ec2aab0cc674")
-	)
-	(wire
-		(pts
 			(xy 121.92 55.88) (xy 121.92 62.23)
 		)
 		(stroke
@@ -3084,16 +3056,6 @@
 			(type default)
 		)
 		(uuid "160d3e1c-7fec-4886-9635-686983da4c3f")
-	)
-	(wire
-		(pts
-			(xy 96.52 96.52) (xy 96.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16bcca6c-6c78-4012-84f3-e1c87162e034")
 	)
 	(wire
 		(pts
@@ -3297,16 +3259,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 104.14) (xy 187.96 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5ef314-edba-4bc1-a918-8e95de45303e")
-	)
-	(wire
-		(pts
 			(xy 43.18 152.4) (xy 38.1 152.4)
 		)
 		(stroke
@@ -3467,7 +3419,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 96.52) (xy 33.02 104.14)
+			(xy 33.02 96.52) (xy 33.02 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3667,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 185.42 104.14)
+			(xy 185.42 96.52) (xy 185.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3774,16 +3726,6 @@
 			(type default)
 		)
 		(uuid "82631c2c-ec6b-4221-8beb-c956e37d533a")
-	)
-	(wire
-		(pts
-			(xy 185.42 104.14) (xy 185.42 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85dfabd8-7e02-4b98-a9bf-f9251743b0fa")
 	)
 	(wire
 		(pts
@@ -3987,16 +3929,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 104.14) (xy 33.02 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e0e863-9ab4-47d5-b01c-39bd4f5e7736")
-	)
-	(wire
-		(pts
 			(xy 139.7 121.92) (xy 139.7 127)
 		)
 		(stroke
@@ -4137,16 +4069,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 104.14) (xy 96.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd3eed94-ed88-4e4a-97ea-f8451e1e2114")
-	)
-	(wire
-		(pts
 			(xy 33.02 129.54) (xy 55.88 129.54)
 		)
 		(stroke
@@ -4234,16 +4156,6 @@
 			(type default)
 		)
 		(uuid "c459c7d0-4c04-48d6-afd2-8cc57afdf8db")
-	)
-	(wire
-		(pts
-			(xy 38.1 48.26) (xy 40.64 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7472916-8e21-42f4-b73c-4e625aeeb692")
 	)
 	(wire
 		(pts
@@ -4357,16 +4269,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 48.26) (xy 40.64 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6be01f5-5a13-42ba-8cc5-a5fcac164ddf")
-	)
-	(wire
-		(pts
 			(xy 104.14 43.18) (xy 104.14 45.72)
 		)
 		(stroke
@@ -4427,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 104.14) (xy 96.52 119.38)
+			(xy 96.52 96.52) (xy 96.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4817,28 +4719,6 @@
 		)
 		(uuid "29972ed7-2e95-4afe-93b1-131b47eb2d49")
 	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 38.1 48.26 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "4ea4e204-c208-4930-b8d2-40e9b9f958c3")
-	)
-	(hierarchical_label "+5V_{EXT}"
-		(shape input)
-		(at 35.56 104.14 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "5437bbf8-4d20-4d21-8b67-3c871f0037d1")
-	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 137.16 45.72 0)
@@ -4849,28 +4729,6 @@
 			(justify left)
 		)
 		(uuid "7f046c5b-4bca-4148-b05a-e9092a1b5b6b")
-	)
-	(hierarchical_label "+5V_{FUSED}"
-		(shape output)
-		(at 99.06 104.14 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "b8df714d-7d46-4f1e-acbb-e47004b9c6b4")
-	)
-	(hierarchical_label "+3V3"
-		(shape output)
-		(at 187.96 104.14 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "d7d50a4a-4515-41d9-94b2-cacdc272febc")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4979,7 +4837,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C513")
 					(unit 1)
 				)
@@ -5046,7 +4904,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0506")
 					(unit 1)
 				)
@@ -5113,7 +4971,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0516")
 					(unit 1)
 				)
@@ -5178,7 +5036,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0511")
 					(unit 1)
 				)
@@ -5292,7 +5150,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C512")
 					(unit 1)
 				)
@@ -5466,7 +5324,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "CN501")
 					(unit 1)
 				)
@@ -5580,7 +5438,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C510")
 					(unit 1)
 				)
@@ -5693,7 +5551,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R501")
 					(unit 1)
 				)
@@ -5807,7 +5665,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C507")
 					(unit 1)
 				)
@@ -5930,7 +5788,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D503")
 					(unit 1)
 				)
@@ -5995,7 +5853,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0509")
 					(unit 1)
 				)
@@ -6108,7 +5966,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R503")
 					(unit 1)
 				)
@@ -6175,7 +6033,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0507")
 					(unit 1)
 				)
@@ -6241,7 +6099,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#FLG0501")
 					(unit 1)
 				)
@@ -6308,7 +6166,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#FLG0502")
 					(unit 1)
 				)
@@ -6422,7 +6280,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C514")
 					(unit 1)
 				)
@@ -6487,7 +6345,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0510")
 					(unit 1)
 				)
@@ -6554,7 +6412,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0504")
 					(unit 1)
 				)
@@ -6621,7 +6479,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0503")
 					(unit 1)
 				)
@@ -6688,7 +6546,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0505")
 					(unit 1)
 				)
@@ -6801,7 +6659,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R502")
 					(unit 1)
 				)
@@ -6868,7 +6726,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0514")
 					(unit 1)
 				)
@@ -6981,7 +6839,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R509")
 					(unit 1)
 				)
@@ -7046,7 +6904,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0508")
 					(unit 1)
 				)
@@ -7160,7 +7018,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C503")
 					(unit 1)
 				)
@@ -7273,7 +7131,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R506")
 					(unit 1)
 				)
@@ -7396,7 +7254,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D504")
 					(unit 1)
 				)
@@ -7546,7 +7404,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "U501")
 					(unit 1)
 				)
@@ -7662,7 +7520,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D505")
 					(unit 1)
 				)
@@ -7776,7 +7634,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C511")
 					(unit 1)
 				)
@@ -7843,7 +7701,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0515")
 					(unit 1)
 				)
@@ -7957,7 +7815,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C508")
 					(unit 1)
 				)
@@ -8024,7 +7882,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0512")
 					(unit 1)
 				)
@@ -8137,7 +7995,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R510")
 					(unit 1)
 				)
@@ -8251,7 +8109,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C504")
 					(unit 1)
 				)
@@ -8318,7 +8176,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0518")
 					(unit 1)
 				)
@@ -8433,7 +8291,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D506")
 					(unit 1)
 				)
@@ -8549,7 +8407,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D501")
 					(unit 1)
 				)
@@ -8665,74 +8523,8 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "D502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aee76a29-55e0-4bd1-bd2a-54600ef1d212")
-		(property "Reference" "#PWR0502"
-			(at 40.64 59.69 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 58.42 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34f7eb79-2394-44c6-8ed7-f91f6730a377")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
-					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -8844,7 +8636,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R504")
 					(unit 1)
 				)
@@ -8958,7 +8750,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C502")
 					(unit 1)
 				)
@@ -9072,7 +8864,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C509")
 					(unit 1)
 				)
@@ -9185,7 +8977,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R505")
 					(unit 1)
 				)
@@ -9250,7 +9042,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0501")
 					(unit 1)
 				)
@@ -9317,7 +9109,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0519")
 					(unit 1)
 				)
@@ -9384,7 +9176,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0513")
 					(unit 1)
 				)
@@ -9451,7 +9243,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "#PWR0517")
 					(unit 1)
 				)
@@ -9564,7 +9356,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R507")
 					(unit 1)
 				)
@@ -9712,7 +9504,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "U502")
 					(unit 1)
 				)
@@ -9826,7 +9618,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C505")
 					(unit 1)
 				)
@@ -9940,7 +9732,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C501")
 					(unit 1)
 				)
@@ -10054,7 +9846,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "C506")
 					(unit 1)
 				)
@@ -10167,7 +9959,7 @@
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/67f7b1e1-e87f-421a-8424-bb26889ab157/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840"
 					(reference "R508")
 					(unit 1)
 				)
