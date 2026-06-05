@@ -268,6 +268,199 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "My Power Management:+V (Local)"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "+V"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+V (Local)_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+V (Local)_1_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "My Power Management:GND (Local)"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND (Local)_0_0"
+				(pin power_in line
+					(at 0 0 270)
+					(length 1.27)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GND (Local)_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PersonalSchematicSymbolLibrary:2450AT07A0100"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1620,232 +1813,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 142.24 63.5)
@@ -2573,6 +2540,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 119.38) (xy 205.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca8e409-6375-4d23-a07e-bae62fea9bfd")
+	)
+	(wire
+		(pts
 			(xy 139.7 66.04) (xy 139.7 63.5)
 		)
 		(stroke
@@ -2733,6 +2710,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 116.84) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc92e1a-b880-4a7b-9d8a-0ecdcb5027bf")
+	)
+	(wire
+		(pts
 			(xy 109.22 53.34) (xy 114.3 53.34)
 		)
 		(stroke
@@ -2793,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 134.62) (xy 137.16 144.78)
+			(xy 137.16 134.62) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2931,6 +2918,16 @@
 		)
 		(uuid "ff69a504-6771-46ef-8524-8d566ac4f650")
 	)
+	(label "GND"
+		(at 167.64 119.38 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "0412c874-d5be-4b15-955c-ec4f54078114")
+	)
 	(label "RF_In"
 		(at 157.48 76.2 0)
 		(effects
@@ -2961,6 +2958,26 @@
 		)
 		(uuid "17f49102-0f1d-4a6b-aaa2-acb975b422e4")
 	)
+	(label "GND"
+		(at 180.34 86.36 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bb356ed-8df5-4bd1-a851-dfcd6633e3a3")
+	)
+	(label "GND"
+		(at 162.56 119.38 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f15f351-1a3c-48b3-bb84-268439e25295")
+	)
 	(label "GPIO11"
 		(at 114.3 101.6 0)
 		(effects
@@ -2970,6 +2987,26 @@
 			(justify bottom)
 		)
 		(uuid "5815b9f1-da9d-4bd8-a1e0-73b01a681b18")
+	)
+	(label "GND"
+		(at 190.5 86.36 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d2a0afa-293e-4996-a81a-4b3ff27ec491")
+	)
+	(label "+3V3"
+		(at 99.06 50.8 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fc2816c-2a50-4b87-985d-10157ae14236")
 	)
 	(label "GPIO09"
 		(at 114.3 96.52 0)
@@ -2991,6 +3028,16 @@
 		)
 		(uuid "66b64540-f84d-4d6e-a122-698affc74317")
 	)
+	(label "+3V3"
+		(at 200.66 116.84 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "69d241e3-8280-4e91-956d-36f4b2b2d218")
+	)
 	(label "GPIO12"
 		(at 114.3 104.14 0)
 		(effects
@@ -3000,6 +3047,46 @@
 			(justify bottom)
 		)
 		(uuid "763a1a83-4f10-472c-bb6f-6347c2a9d88f")
+	)
+	(label "GND"
+		(at 99.06 66.04 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "794fbef1-9f1d-45e8-89bb-0d4f9f79a232")
+	)
+	(label "GND"
+		(at 215.9 86.36 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b18f3d0-aa5c-4e79-9b6b-4e004a044863")
+	)
+	(label "GND"
+		(at 205.74 124.46 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "b677ce82-5109-4326-8022-5aa965473b05")
+	)
+	(label "GND"
+		(at 137.16 137.16 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "db81a427-6df8-481f-95ac-e6d905e67482")
 	)
 	(label "RF_Feed"
 		(at 195.58 76.2 180)
@@ -3032,6 +3119,17 @@
 			(justify right)
 		)
 		(uuid "0feabb7a-1b6d-4c17-bd3b-b3812f4092c5")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 200.66 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14a21b1d-c3b2-44e1-ad96-4c24457249ae")
 	)
 	(hierarchical_label "IO14"
 		(shape bidirectional)
@@ -3352,6 +3450,17 @@
 		)
 		(uuid "dd13c3f1-a369-4443-8c3f-be0e46711a8e")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 205.74 119.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd4845e2-2898-49a5-bb17-5941f0c6e1f5")
+	)
 	(hierarchical_label "IO09"
 		(shape bidirectional)
 		(at 101.6 96.52 180)
@@ -3484,15 +3593,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9ba41837-599d-44b7-a7b7-5f79aee783a1")
+			(uuid "08ff43f8-e80d-40a9-b196-84b5ebe32621")
 		)
 		(pin "2"
-			(uuid "35a0f4fe-96cd-4882-9127-17c3a5105113")
+			(uuid "e981c42b-490c-4311-aa2d-68e510a2ff07")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "C403")
 					(unit 1)
 				)
@@ -3615,21 +3742,39 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 198.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 198.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "03297953-8114-4046-b944-eb32f3335aba")
+			(uuid "768020d0-7c15-4206-b324-9d4965ea70ca")
 		)
 		(pin "1"
-			(uuid "aba297b4-92ae-48ed-a524-4696207eed05")
+			(uuid "67df3ca4-fa8b-4bca-ba8a-0cc0296eea34")
 		)
 		(pin "3"
-			(uuid "dae96d6e-42a7-4bd4-aeea-24936e91dfcf")
+			(uuid "8456a9b7-9b5c-4291-b73f-f61c278092ca")
 		)
 		(pin "4"
-			(uuid "48d1e21d-5238-4456-9cfe-d4ee6a0bb222")
+			(uuid "9011cfdb-d89b-4261-8760-c856839a6b1d")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "ANT401")
 					(unit 1)
 				)
@@ -3662,7 +3807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 109.22 104.902 90)
 			(effects
 				(font
@@ -3734,16 +3879,119 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 109.22 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "8656a738-7fe6-4599-a16f-ea3c82bd9e24")
+			(uuid "9ac1fae4-7251-4b19-aaed-469257c9be08")
 		)
 		(pin "2"
-			(uuid "5eaf8310-9a7c-4403-9d8d-341a219c5ea3")
+			(uuid "4d171cb6-6025-44b0-a22b-be35205fcf8f")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 167.64 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e420d44-8417-4923-b8eb-3e251d3ccf5f")
+		(property "Reference" "GND406"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a6612c5-2e7c-4597-9f03-047cb5877bc1")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "GND406")
 					(unit 1)
 				)
 			)
@@ -3775,7 +4023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 109.22 125.222 90)
 			(effects
 				(font
@@ -3847,16 +4095,204 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 109.22 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "1535c2ce-20b7-4f9a-98fa-333454e47f71")
+			(uuid "140ec223-de07-42ee-bac7-9220ec996109")
 		)
 		(pin "2"
-			(uuid "696a038f-9621-4560-91db-bb7a4b77d0ef")
+			(uuid "e9fa459c-733c-44ac-b16e-bdaae0f88c5a")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:+V (Local)")
+		(at 99.06 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "3db97ac1-d9b4-4b57-b694-125021da7d71")
+		(property "Reference" "+V401"
+			(at 100.33 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 99.06 47.625 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf546435-8ebb-4f03-8369-19256885a166")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "+V401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 137.16 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47bf8352-dbc0-49f6-a5a9-de75604e2b31")
+		(property "Reference" "GND408"
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4051d47b-e730-48bc-a69b-7bf14d813e24")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "GND408")
 					(unit 1)
 				)
 			)
@@ -3917,83 +4353,34 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e0a893b2-da64-422c-98f7-ed513a98b61c")
+			(uuid "c539220b-e142-4f91-94e0-7d465e3bcee6")
 		)
 		(pin "2"
-			(uuid "4f15b60b-449b-46aa-9e64-d5d1d490a9c6")
+			(uuid "0445d9d0-2611-4db3-b729-926f0f35fcb7")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "C407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55ef95fc-af81-4f34-a0c5-f800607224d3")
-		(property "Reference" "#PWR0404"
-			(at 137.16 151.13 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 149.86 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a4ef811-db71-426c-affa-44c37287c908")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -4054,16 +4441,119 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9a3c2af0-b822-433a-af0b-622e84c0f0c6")
+			(uuid "63929d54-0ff4-474b-a826-df01b1debe12")
 		)
 		(pin "2"
-			(uuid "133853fb-9499-489e-824f-588f2708b942")
+			(uuid "5225f913-b8b7-496e-8f43-c0623784802f")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "C406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 180.34 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5847a88b-e024-4750-b5b3-82715eac0782")
+		(property "Reference" "GND402"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "265d6ee8-4814-4aba-9b17-ee126846a7aa")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "GND402")
 					(unit 1)
 				)
 			)
@@ -4095,7 +4585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 109.22 107.442 90)
 			(effects
 				(font
@@ -4167,15 +4657,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 109.22 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "747d7d8c-d2c0-42e9-af56-38e152bc3228")
+			(uuid "8593a6ec-3872-4e82-a09f-fec612221bfd")
 		)
 		(pin "2"
-			(uuid "75e53c85-28b3-448a-a0c8-079ebcb9b1ed")
+			(uuid "bd8bb7c4-88c5-479e-9df4-2c819f4822ae")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R405")
 					(unit 1)
 				)
@@ -4208,7 +4716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 169.418 111.76 90)
 			(effects
 				(font
@@ -4280,15 +4788,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 167.64 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 167.64 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "a660fa9e-4f5f-40fb-8819-1aeba4393eff")
+			(uuid "cf4d3004-1b24-454e-920a-f56bf127348d")
 		)
 		(pin "2"
-			(uuid "c76e15f5-1881-48dd-9d81-36cbcb2a5103")
+			(uuid "698e62b0-fcf9-423e-b1b0-86976cbe3693")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R410")
 					(unit 1)
 				)
@@ -4394,15 +4920,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "b81c5ea9-84e3-415a-8187-cfd1fafc1721")
+			(uuid "12c16f59-7222-40b5-b81e-9aaef9934f16")
 		)
 		(pin "2"
-			(uuid "52321370-a5e5-4a1e-9824-abccf46e66bd")
+			(uuid "4bd772c3-679d-4d03-9ded-51884baf489e")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "C405")
 					(unit 1)
 				)
@@ -4435,7 +4979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 109.22 94.742 90)
 			(effects
 				(font
@@ -4507,16 +5051,119 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 109.22 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "8221be67-35d9-484a-9db9-9839b0240f29")
+			(uuid "452f41fb-3f9f-4902-8a93-d08942d5b162")
 		)
 		(pin "2"
-			(uuid "fc119ee8-e90b-4e0b-adf5-cae3dd7202f7")
+			(uuid "4ba719db-87be-49d8-affb-773ae332c365")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 162.56 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84050fff-615c-4413-aab6-8b809c44cef5")
+		(property "Reference" "GND405"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73c9e1a5-2c68-4b9a-a39b-627504f67b04")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "GND405")
 					(unit 1)
 				)
 			)
@@ -4621,15 +5268,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "747e7c23-00af-4dc6-aa65-fc06fe74ca76")
+			(uuid "d1b03b70-cb97-4a5a-bcb3-3493ff52f417")
 		)
 		(pin "2"
-			(uuid "6ae083bb-e7bc-4ca1-bb90-d15c826e2364")
+			(uuid "b32e8695-5a9a-4701-8cab-db069411a8c7")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "C402")
 					(unit 1)
 				)
@@ -4662,7 +5327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 109.22 102.362 90)
 			(effects
 				(font
@@ -4734,15 +5399,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 109.22 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "63f0f41a-d91d-4cb3-ae38-2a95fdd0e710")
+			(uuid "1e88f83a-426c-4597-bb10-112cb768b551")
 		)
 		(pin "2"
-			(uuid "8834cbc5-90db-45b0-a52b-63ab31378051")
+			(uuid "16dd4227-07cd-46b1-a555-5e2e8fa09686")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R403")
 					(unit 1)
 				)
@@ -4750,34 +5433,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 99.06 50.8 0)
+		(lib_id "My Power Management:GND (Local)")
+		(at 190.5 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ff2d197-0845-4b06-a55a-08b448ffd8bd")
-		(property "Reference" "#PWR0401"
-			(at 99.06 54.61 0)
+		(uuid "9e62e382-6f40-465c-a53c-0095ed3b19ad")
+		(property "Reference" "GND403"
+			(at 190.5 86.36 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 99.06 45.72 0)
+		(property "Value" "GND"
+			(at 190.5 86.36 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 50.8 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +5470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 50.8 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,8 +5478,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 50.8 0)
+		(property "Description" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,47 +5506,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "99426b97-54ff-450c-97a8-e5aff0577052")
+			(uuid "0f55f013-2b74-42ba-9933-99dc45e5b1b6")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "#PWR0401")
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "GND403")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 119.38 0)
+		(lib_id "My Power Management:GND (Local)")
+		(at 215.9 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9c37ea52-6147-4950-918f-4a706341a66d")
-		(property "Reference" "#PWR0406"
-			(at 162.56 125.73 0)
+		(uuid "a298a72d-8de4-4fca-98d8-41be8b51eae0")
+		(property "Reference" "GND404"
+			(at 215.9 86.36 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 124.46 0)
+			(at 215.9 86.36 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 119.38 0)
+			(at 215.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 119.38 0)
+			(at 215.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,8 +5563,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 119.38 0)
+		(property "Description" ""
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 215.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,12 +5591,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7962e970-27b9-4fff-b7b2-f7a17b083358")
+			(uuid "14ee9e16-c850-422a-ab26-12f080c49e3c")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "#PWR0406")
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "GND404")
 					(unit 1)
 				)
 			)
@@ -4908,7 +5628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 109.22 99.822 90)
 			(effects
 				(font
@@ -4980,15 +5700,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 109.22 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "bb964b09-1717-4772-b947-bb3bdc7d3a99")
+			(uuid "c79a1f90-6055-4e2a-9756-8aaa88889669")
 		)
 		(pin "2"
-			(uuid "425c0fa8-1bb0-4109-aa4e-badca4b1850d")
+			(uuid "8315b0ce-522e-4473-abee-e063843d3cd9")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R402")
 					(unit 1)
 				)
@@ -5021,7 +5759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 164.338 111.76 90)
 			(effects
 				(font
@@ -5093,15 +5831,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 162.56 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 162.56 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "d52e74cf-4a48-43fd-92b8-18f0d2e2e335")
+			(uuid "d13c1298-702e-4f7f-82a8-61062f5caf5c")
 		)
 		(pin "2"
-			(uuid "81f25bae-e600-44e1-90c3-9d006ff8b969")
+			(uuid "2e7dffd7-7406-4f28-bb33-993afe018032")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R409")
 					(unit 1)
 				)
@@ -5109,29 +5865,29 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "My Power Management:GND (Local)")
 		(at 99.06 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b30e2a77-c261-41ff-9fe9-4ef1d07e7647")
-		(property "Reference" "#PWR0402"
-			(at 99.06 72.39 0)
+		(uuid "bf7babf5-d0bd-4a0a-841b-6402b9edaf3c")
+		(property "Reference" "GND401"
+			(at 99.06 66.04 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 71.12 0)
+			(at 99.06 66.04 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5154,7 +5910,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -5164,47 +5938,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "b32693cb-44ce-49e1-9f3a-2226642b1005")
+			(uuid "61693731-e5c4-45ba-9b16-6c18999b8c43")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "#PWR0402")
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "GND401")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 215.9 86.36 0)
+		(lib_id "My Power Management:+V (Local)")
+		(at 200.66 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfc41b04-1540-49d1-b078-0fb70af52bf0")
-		(property "Reference" "#PWR0410"
-			(at 215.9 92.71 0)
+		(uuid "c57ca148-6971-43de-b455-d41db6f122ab")
+		(property "Reference" "+V402"
+			(at 201.93 114.2999 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 215.9 91.44 0)
+		(property "Value" "+3V3"
+			(at 200.66 113.665 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 86.36 0)
+			(at 200.66 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 86.36 0)
+			(at 200.66 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,8 +5995,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 86.36 0)
+		(property "Description" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 200.66 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,12 +6023,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd2b1468-6e8a-4312-bdf5-35b1c1e5204c")
+			(uuid "0c727f08-a46a-4771-963d-a9407009e6f5")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "#PWR0410")
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "+V402")
 					(unit 1)
 				)
 			)
@@ -5277,7 +6069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
 			(at 185.42 76.2 0)
 			(effects
 				(font
@@ -5286,7 +6078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 0Ω Thick Film Resistor ±5% 0201SMD AEC-Q200"
+		(property "Description" "-55℃~+155℃ 0Ω Thick Film Resistor ±1% 0201SMD AEC-Q200"
 			(at 185.42 76.2 0)
 			(effects
 				(font
@@ -5295,7 +6087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 185.42 76.2 90)
 			(effects
 				(font
@@ -5304,7 +6096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0201JR-130RL"
+		(property "Manufacturer Part Number" "0201WMF0000TEE"
 			(at 185.42 76.2 90)
 			(effects
 				(font
@@ -5313,7 +6105,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6491732"
+		(property "LCSC" "C473473"
 			(at 185.42 76.2 90)
 			(effects
 				(font
@@ -5322,7 +6114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/yageo/AC0201JR-130RL/16990019"
+		(property "Distributor Link 1" ""
 			(at 185.42 76.2 90)
 			(effects
 				(font
@@ -5331,7 +6123,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/YAGEO/AC0201JR-130RL?qs=lc2O%252BfHJPVb47iAbDMWfZA%3D%3D"
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0201WMF0000TEE?qs=e8oIoAS2J1Q67JC%252BrrNJuA%3D%3D"
+			(at 185.42 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 185.42 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 185.42 76.2 90)
 			(effects
 				(font
@@ -5341,82 +6151,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "07bbc6c2-b444-467c-8f31-c6510a564eaf")
+			(uuid "4a0209a5-76c3-43c9-8660-5b44b7bf7eca")
 		)
 		(pin "2"
-			(uuid "d8dbeab6-a8ea-45f2-825a-2b79f106a6c6")
+			(uuid "acddc7e1-6634-43b3-b904-4258e0a7b413")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d78951e9-b158-4e17-baaf-5904c46a2743")
-		(property "Reference" "#PWR0409"
-			(at 190.5 92.71 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 91.44 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad3de7b9-676a-4b6e-ac4b-b23f21b6224b")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -5521,15 +6264,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "86a46018-2706-4d62-8b79-db523023db6e")
+			(uuid "22025904-b8b0-4d9a-8a6f-7ba69f14a94c")
 		)
 		(pin "2"
-			(uuid "0ae06c03-8221-4b2f-a485-044ee45475fc")
+			(uuid "fefa84b7-7987-46ca-8997-08bd1e2491af")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "C401")
 					(unit 1)
 				)
@@ -5562,7 +6323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 175.26 99.822 90)
 			(effects
 				(font
@@ -5634,83 +6395,34 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 175.26 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 175.26 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "adc2db7c-8e8c-4f2d-a66d-0d1221449eca")
+			(uuid "55668398-8205-495e-b207-0ea482ba0aed")
 		)
 		(pin "2"
-			(uuid "40374ef1-e3ca-4dfc-afe6-b194d55e833e")
+			(uuid "b54cd77c-e46c-4110-91fa-d7186b7514e8")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e53d62c1-45e5-4912-9066-2a26fae18aa3")
-		(property "Reference" "#PWR0407"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 124.46 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7af08cbe-913f-49c6-b982-2f1096b3ff4f")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -5823,180 +6535,198 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "22"
-			(uuid "f00ca895-664a-4c8e-ae79-6ec76ca5def4")
+			(uuid "f2e4103a-0423-4af1-b459-ba226f144dda")
 		)
 		(pin "10"
-			(uuid "53207d59-ce42-4925-bf61-6a7e842b4dba")
+			(uuid "cdbda6ea-dfc6-41d3-a0e4-f1ae809d360a")
 		)
 		(pin "27"
-			(uuid "83c58265-f445-416a-8e70-cb1021bd0cfe")
+			(uuid "65339b27-99ec-4fc4-8d36-e556e706dd03")
 		)
 		(pin "42"
-			(uuid "ccaf280e-ffa4-4464-bb3c-6b8b9e087024")
+			(uuid "54541524-cb67-48ae-99a4-70d3400d540a")
 		)
 		(pin "9"
-			(uuid "9841a175-0e50-4c03-8650-7374127a4cf0")
+			(uuid "564d2b9f-a599-4a0b-9ec5-e97fac63cb47")
 		)
 		(pin "2"
-			(uuid "c9d693e6-6679-4bfc-b694-86e0ee3ca03e")
+			(uuid "f0749111-e49c-47a9-a6a1-4c79d201f896")
 		)
 		(pin "29"
-			(uuid "ea7a37f8-edda-4f05-8a6d-65094c1d5186")
+			(uuid "c0fbbd3b-0e35-43f5-a7e7-a81c0f23914d")
 		)
 		(pin "51"
-			(uuid "67de4b1f-4c78-45fa-b30a-e534e4fdba10")
+			(uuid "85137e37-d1d9-47ed-bc8e-3b302df9d51c")
 		)
 		(pin "33"
-			(uuid "368d98e4-986b-4072-b833-5679c0f63b5e")
+			(uuid "234ec359-fc4c-4d48-ae42-47c60f12f47e")
 		)
 		(pin "23"
-			(uuid "484a3d20-364f-44b1-acef-acdf3511fb65")
+			(uuid "66ef2834-9456-40fb-aa69-90138e2978cf")
 		)
 		(pin "37"
-			(uuid "4176537d-bf77-4909-8d1f-55f70df53502")
+			(uuid "2e411b28-4599-4214-97a8-ca845caf6977")
 		)
 		(pin "7"
-			(uuid "15f5f70d-0938-4408-940e-f4a5bf7a5255")
+			(uuid "3e99c1a7-286e-4be8-b078-5f6107f8282b")
 		)
 		(pin "5"
-			(uuid "6a8c8e0c-fbc8-4dc6-8242-d46dba4fdd56")
+			(uuid "f31ca4a3-cfb4-4335-b629-fad31296a8b5")
 		)
 		(pin "8"
-			(uuid "adde17d2-04ab-47e3-bb55-1996810c6ae2")
+			(uuid "b92f86f8-676b-43ef-a9eb-19194ea1afa5")
 		)
 		(pin "1"
-			(uuid "80a4faae-ecb2-4933-8ae7-5a8c19803b03")
+			(uuid "b6cbf5d8-7846-4d5f-a6af-f932dc2239a8")
 		)
 		(pin "21"
-			(uuid "6bf407ff-2719-4742-8ced-a7f43dd6abda")
+			(uuid "cb471e67-0391-405e-a833-ad4b7b22896e")
 		)
 		(pin "40"
-			(uuid "0c1f0331-485e-46f7-af4d-40e03f0faea0")
+			(uuid "bc4347a9-d5fc-4955-9bed-26d1b5eb7f92")
 		)
 		(pin "55"
-			(uuid "377fbb87-2a37-47fe-b19d-9cf80b383b24")
+			(uuid "c89efbbd-88df-4a42-bd77-95850bf5a638")
 		)
 		(pin "25"
-			(uuid "315bf9d1-8218-4a5b-862f-9bed3e7c713e")
+			(uuid "a7166dc3-3f6b-4b2b-86cf-9e94e1565a92")
 		)
 		(pin "34"
-			(uuid "a3005194-0cf9-43a6-8478-f9539fc8b0cb")
+			(uuid "46a20588-fe02-45c8-af7c-01a7f34b1fd2")
 		)
 		(pin "45"
-			(uuid "6a051d83-f62b-4120-aab9-b904e0d7899f")
+			(uuid "c22bd332-89a8-43be-8c96-5305e74edc46")
 		)
 		(pin "3"
-			(uuid "62801939-6121-43ee-9794-08663a9ba31a")
+			(uuid "90b6ac92-ac15-46c4-9cb4-203d3205713e")
 		)
 		(pin "14"
-			(uuid "29516eaf-c594-4999-b65d-fe46c69b2e72")
+			(uuid "2a3f576b-0df6-47c9-9f62-b2a6d6ddf185")
 		)
 		(pin "48"
-			(uuid "1dda2ea4-881f-47cd-a32a-d037b8e52f5c")
+			(uuid "1cd7b9b8-13a1-4802-8176-c68fb225a230")
 		)
 		(pin "20"
-			(uuid "2ec90107-5841-43a5-abe7-2c1deb483eee")
+			(uuid "36f2f818-cf0a-4989-8447-c1799b993049")
 		)
 		(pin "35"
-			(uuid "827f9d13-e05c-47fc-b57a-c70172bbac4c")
+			(uuid "694d478e-e632-4faa-90b5-90c255caf694")
 		)
 		(pin "56"
-			(uuid "5f1a9edf-4d18-4ae0-b3ae-69c1235ad66b")
+			(uuid "5382521a-3c8a-49c5-9d99-6b1349963460")
 		)
 		(pin "47"
-			(uuid "630536b7-2d83-41c1-8d9a-f79fa1913fa2")
+			(uuid "a5efb2b0-5db4-4d58-b906-cc3cddba9664")
 		)
 		(pin "30"
-			(uuid "08ede8f0-3c05-4fdd-b675-47180d42eabb")
+			(uuid "8eacca56-e30b-4b91-ac41-bbceb24cb6c9")
 		)
 		(pin "31"
-			(uuid "a2334d28-1b59-4acc-b247-e7747aee580a")
+			(uuid "ce5aba55-8a05-433b-976e-0fe6b9862423")
 		)
 		(pin "6"
-			(uuid "9f9ce43b-2423-4143-82f1-22657ebeee3f")
+			(uuid "16644486-018b-47ef-8fae-b30151fa3dba")
 		)
 		(pin "53"
-			(uuid "deb5856c-07b6-49fc-ba85-b5db35dfc846")
+			(uuid "5d492b17-480c-47df-aec1-7d13f53a6188")
 		)
 		(pin "57"
-			(uuid "7064b8e7-c962-4d01-9f29-8bcc4ca95310")
+			(uuid "9a31dba9-bbc8-477d-b65d-ff9624194cb2")
 		)
 		(pin "46"
-			(uuid "32fef888-2ea4-4e65-8a83-b70eb52f8319")
+			(uuid "e96fd037-669b-48ca-83b8-165f5d57c6b6")
 		)
 		(pin "17"
-			(uuid "9a6960c5-e552-45d6-bbd1-97509e86810d")
+			(uuid "333ecf86-780a-4c27-9720-4167c44565ce")
 		)
 		(pin "54"
-			(uuid "d86296ca-2125-47ad-b416-722c19cc4d60")
+			(uuid "94462998-e35a-4960-b961-93439d76e975")
 		)
 		(pin "18"
-			(uuid "92a37e1a-f948-4f0e-9bb9-bbe0d8b8d72b")
+			(uuid "a7e91a4e-f164-44ef-95ed-6bad22577fbb")
 		)
 		(pin "19"
-			(uuid "0e74fa58-0583-43ef-b7f3-1c17ebd5c8e7")
+			(uuid "b5a5fe16-91a0-45f5-a68d-f3582a894204")
 		)
 		(pin "12"
-			(uuid "6b97af30-17b2-4a8c-afd0-9070c46cc753")
+			(uuid "b6808dff-1cce-47a0-9c26-14d78f116795")
 		)
 		(pin "50"
-			(uuid "d91b6fb5-3bd5-470b-981b-c64752abe61e")
+			(uuid "5c96435d-6b62-4e93-8eba-a0ac1555f545")
 		)
 		(pin "13"
-			(uuid "e4af7463-005b-4f7d-994e-cd315b6ee381")
+			(uuid "77997123-cda7-4800-8e66-013379a595ac")
 		)
 		(pin "49"
-			(uuid "ca44eeb7-ef9d-4e07-9842-ac81ca1c8541")
+			(uuid "1f155ee3-0430-49fc-afe3-b55525c2cc0b")
 		)
 		(pin "4"
-			(uuid "e06bd5f6-5291-4eae-b256-e265641acc61")
+			(uuid "aaf15f8e-7200-4e84-81f0-dbc6cd02e399")
 		)
 		(pin "32"
-			(uuid "8eda3fc4-61ce-4ca1-9cc7-69bbebcf8f62")
+			(uuid "032ca641-0961-4dad-bf4d-be188f628450")
 		)
 		(pin "26"
-			(uuid "dc999363-d5d9-4060-b2ce-6b03fc1c5dcf")
+			(uuid "feb31594-b1e5-4ea4-bdec-7261c6d69792")
 		)
 		(pin "41"
-			(uuid "a99a066b-c4d4-4070-b3ad-d7075c94beaf")
+			(uuid "3171d684-8c84-4bda-b395-e96ba885ea22")
 		)
 		(pin "15"
-			(uuid "6c292b86-48a3-4162-b3b1-9a2949a1be4b")
+			(uuid "e98b0c75-d48d-4b0a-be17-4ffd733223b7")
 		)
 		(pin "36"
-			(uuid "9f6e30b7-3b22-4411-8a9f-7cd896fd04af")
+			(uuid "a68d6050-8cad-4bd9-8b0c-4a5d60aa0d4d")
 		)
 		(pin "38"
-			(uuid "e7085ede-a4eb-4c68-b9ae-d48ad44fba3b")
+			(uuid "ef10562e-a1a9-4c70-842f-40cd6cdd4fab")
 		)
 		(pin "44"
-			(uuid "22c8accf-94a0-48d1-a472-d4b3f3f61368")
+			(uuid "12c00214-b394-4c6a-a4ca-b718f8090a60")
 		)
 		(pin "52"
-			(uuid "e2e5cb77-0d21-4c7a-9247-424d9e987dda")
+			(uuid "0ee6ce4f-db58-4574-9fe4-dd49e1a0fc2b")
 		)
 		(pin "39"
-			(uuid "88d9e934-00e3-44b6-a557-d53525329f47")
+			(uuid "536c4901-2dde-4156-9751-7aed0dbd0523")
 		)
 		(pin "28"
-			(uuid "1c7b98ae-9cf3-4fd2-87db-cd49c54cc6ed")
+			(uuid "0b835926-0eb5-457c-ad69-24983bbd5ac2")
 		)
 		(pin "24"
-			(uuid "3536d9a1-8416-4184-9a11-932ba8b408eb")
+			(uuid "41d1d222-1672-4940-8043-9ff88a4ca66e")
 		)
 		(pin "11"
-			(uuid "6e89af7e-7937-41f9-9096-f09297fb9b1b")
+			(uuid "fd5fe129-f3c5-45bd-aa78-98aa34513aeb")
 		)
 		(pin "43"
-			(uuid "e1b1c27d-7be7-4f48-9377-6619f4545169")
+			(uuid "fddf35bc-89d4-4294-8beb-bd87a66bdc5a")
 		)
 		(pin "16"
-			(uuid "0c38d369-d298-42c3-b6aa-3996b08f3b0e")
+			(uuid "fbe2120d-357d-497b-a2ae-8e4628480515")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "U401")
 					(unit 1)
 				)
@@ -6102,83 +6832,34 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "daa1c601-279a-4b9d-a70b-caa7b2fcffac")
+			(uuid "ba689850-3cad-4e54-a9cd-07eb2325ddfd")
 		)
 		(pin "2"
-			(uuid "170d564c-6840-40f0-8f79-f899a81d207f")
+			(uuid "7c6942af-627d-424b-8cae-c820960a45e2")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "C404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5db14a9-63f1-4e25-aecc-b54cd453a584")
-		(property "Reference" "#PWR0408"
-			(at 180.34 92.71 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 91.44 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84e0221e-5ee7-4ae5-badd-4f33230afa46")
-		)
-		(instances
-			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
-					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -6210,7 +6891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Resistors:R_0201_Dense"
+		(property "Footprint" "My Resistors:R_0201_Nominal"
 			(at 175.26 102.362 90)
 			(effects
 				(font
@@ -6282,16 +6963,119 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 175.26 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 175.26 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "942cfe52-c8ee-46fc-b03f-23c63748ea6d")
+			(uuid "dd7dd303-a325-45fe-84f5-67a983626c5c")
 		)
 		(pin "2"
-			(uuid "d7bd40ca-664c-4b6f-a2fc-72598559dd3d")
+			(uuid "da7c50e3-d7a0-4ea9-b25f-e605ebec4456")
 		)
 		(instances
 			(project "ESP32-S3 Pico D1"
-				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/3412d0f1-7c6a-4bf4-a082-dea1354cc758"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
 					(reference "R408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Power Management:GND (Local)")
+		(at 205.74 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc54da5a-6d58-4d15-81b7-b8e8b174e268")
+		(property "Reference" "GND407"
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12f6fb10-c601-4ff8-b4e3-78f687735875")
+		)
+		(instances
+			(project "ESP32-S3 Pico D1"
+				(path "/2e11fda6-397f-44e4-8131-fa876b821c34/a5052775-3b39-45ce-a671-c6973312eaaf/26da78bb-39c7-4511-ab46-7add0d07246a"
+					(reference "GND407")
 					(unit 1)
 				)
 			)

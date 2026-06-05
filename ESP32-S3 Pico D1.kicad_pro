@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.28,
-          "width": 0.28
+          "height": 0.3,
+          "width": 0.23
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -68,80 +68,7 @@
           "width": 0.1295
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|146590000|109513000|d9fad04a-086f-48b1-90a5-02d30f377ff4|6e177349-a688-4af3-a1c9-2691b43eb291",
-          ""
-        ],
-        [
-          "copper_edge_clearance|146590000|109513000|d9fad04a-086f-48b1-90a5-02d30f377ff4|94c36c48-6756-4e84-ace6-f2b7b3668bfe",
-          ""
-        ],
-        [
-          "copper_edge_clearance|146750000|87273000|13ff28e1-77d7-4a24-aef3-8f582fc9e3cb|06a1ed8e-8392-47f9-854d-c6c3c4a1ec05",
-          ""
-        ],
-        [
-          "copper_edge_clearance|146850000|87273000|13ff28e1-77d7-4a24-aef3-8f582fc9e3cb|dd2f8471-5815-4f8f-8f09-81f0af79ed42",
-          ""
-        ],
-        [
-          "copper_edge_clearance|147390000|109513000|d9fad04a-086f-48b1-90a5-02d30f377ff4|2ffbf186-0755-4340-b088-07b1e95bbf80",
-          ""
-        ],
-        [
-          "copper_edge_clearance|147390000|109513000|d9fad04a-086f-48b1-90a5-02d30f377ff4|477efb61-1ef9-4c9f-8e70-0b7409fbf901",
-          ""
-        ],
-        [
-          "copper_edge_clearance|148145000|109558000|d9fad04a-086f-48b1-90a5-02d30f377ff4|d28ee884-b00e-4cf8-ae93-c1d16c1fc510",
-          ""
-        ],
-        [
-          "copper_edge_clearance|148645000|109558000|d9fad04a-086f-48b1-90a5-02d30f377ff4|8f5fa978-d601-42e6-b00b-186c82b08195",
-          ""
-        ],
-        [
-          "copper_edge_clearance|149145000|109558000|d9fad04a-086f-48b1-90a5-02d30f377ff4|4d421d45-5989-460e-8a7f-8d46bbd448a0",
-          ""
-        ],
-        [
-          "copper_edge_clearance|149645000|109558000|d9fad04a-086f-48b1-90a5-02d30f377ff4|e42250e0-7eca-46cb-94dc-0f23ef3c6ab0",
-          ""
-        ],
-        [
-          "copper_edge_clearance|150145000|109558000|d9fad04a-086f-48b1-90a5-02d30f377ff4|6f0ecb8d-5fcc-47e6-9e8e-4ceaab35dd84",
-          ""
-        ],
-        [
-          "copper_edge_clearance|150645000|109558000|d9fad04a-086f-48b1-90a5-02d30f377ff4|26ed6a03-48b2-48b3-a8c9-ee913d598d2c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|151145000|109558000|d9fad04a-086f-48b1-90a5-02d30f377ff4|7739c0c3-dc4c-4af3-b439-b995ab0a558f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|151645000|109558000|d9fad04a-086f-48b1-90a5-02d30f377ff4|170159ef-4485-4af1-a4b0-cf6b295bdc94",
-          ""
-        ],
-        [
-          "copper_edge_clearance|152190000|109513000|d9fad04a-086f-48b1-90a5-02d30f377ff4|848a615a-a5c3-41ea-afa4-2e2d89764d8c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|152190000|109513000|d9fad04a-086f-48b1-90a5-02d30f377ff4|b2ff0ad0-3161-4acb-b64f-8ad28c8e2634",
-          ""
-        ],
-        [
-          "copper_edge_clearance|152990000|109513000|d9fad04a-086f-48b1-90a5-02d30f377ff4|2e6900c6-8f80-4244-adbb-5c139fffd87b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|152990000|109513000|d9fad04a-086f-48b1-90a5-02d30f377ff4|ff91b79f-875b-4a07-aefb-79fd70bef80a",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -206,9 +133,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1016,
+        "min_clearance": 0.1,
         "min_connection": 0.01016,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.1524,
         "min_hole_to_hole": 0.1016,
@@ -220,8 +147,8 @@
         "min_text_thickness": 0.075,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1016,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.35,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.05,
         "use_height_for_length_calcs": true
       },
@@ -275,6 +202,7 @@
         0.127,
         0.1524,
         0.1778,
+        0.2,
         0.2032,
         0.3048,
         0.6096
@@ -356,32 +284,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "four_way_junction|1016000|381000|b01d4b42-47e4-446c-adfd-e9ac6245e5a1|2605dc01-1e00-442e-90a7-69680915b998|/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840||",
-        ""
-      ],
-      [
-        "four_way_junction|1016000|381000|b01d4b42-47e4-446c-adfd-e9ac6245e5a1|2605dc01-1e00-442e-90a7-69680915b998|||",
-        ""
-      ],
-      [
-        "four_way_junction|787400|762000|41989e57-39e3-44b9-92d7-06a0bb04d241|dbc24bbc-53a3-46fe-bc63-c43307148794|/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840||",
-        ""
-      ],
-      [
-        "four_way_junction|787400|762000|41989e57-39e3-44b9-92d7-06a0bb04d241|dbc24bbc-53a3-46fe-bc63-c43307148794|||",
-        ""
-      ],
-      [
-        "four_way_junction|863600|762000|0ebe3d92-42f2-48c8-8eda-94049b6bf486|42046bca-9b07-4aa6-a0a1-eb332325e625|/2e11fda6-397f-44e4-8131-fa876b821c34/4200588e-91b2-4f4d-a724-17f36fdc8840||",
-        ""
-      ],
-      [
-        "four_way_junction|863600|762000|0ebe3d92-42f2-48c8-8eda-94049b6bf486|42046bca-9b07-4aa6-a0a1-eb332325e625|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -786,13 +689,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -942,20 +845,24 @@
   },
   "sheets": [
     [
-      "3412d0f1-7c6a-4bf4-a082-dea1354cc758",
+      "2e11fda6-397f-44e4-8131-fa876b821c34",
+      "Root"
+    ],
+    [
+      "a5052775-3b39-45ce-a671-c6973312eaaf",
+      "ESP32-S3 Pico D1-Main"
+    ],
+    [
+      "26da78bb-39c7-4511-ab46-7add0d07246a",
       "ESP32-S3-PICO-1"
     ],
     [
-      "4200588e-91b2-4f4d-a724-17f36fdc8840",
+      "b54ccb04-8c3a-4aa7-9b86-fdcd04cea18a",
       "USB_Power_Interface"
     ],
     [
-      "5dfdd1cc-d89a-4694-84d2-5afab1d208fe",
+      "b1c0fbec-c353-4876-8581-5630c7ea9084",
       "User Interface"
-    ],
-    [
-      "2e11fda6-397f-44e4-8131-fa876b821c34",
-      "Root"
     ]
   ],
   "text_variables": {},
