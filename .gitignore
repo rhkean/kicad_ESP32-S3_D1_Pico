@@ -1,7 +1,9 @@
 *.kicad_sch-bak
 .history/
-ESP32-S3\ Pico\ D1-backups/
 \#auto_saved_files#
 _autosave*
 *.lck
+tmp/
+*-backups/
+jlcpcb/gerber/
 
